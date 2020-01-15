@@ -14,6 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Alperen Görmez
+title_separator: "|"
 email:
 description: >- # this means to ignore newlines until "baseurl:"
   Welcome to Alperen Görmez's personal webpage.
@@ -21,6 +22,7 @@ twitter_username: username
 github_username: username
 minimal_mistakes_skin: contrast
 search: true
+logo: "/assets/images/uic_logo.jpg"
 
 # Build settings
 markdown: kramdown
@@ -94,8 +96,8 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: true
-      share: true
+      comments: false
+      share: false
       related: true
   # _pages
   - scope:
@@ -111,3 +113,5 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
+
+google-site-verification: "clR4BwnirozvdmQUkeheSxbaFmx4FTxpkX6M6D-vDn8"
