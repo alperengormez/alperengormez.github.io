@@ -63,7 +63,7 @@ author:
   location: "Chicago, IL"
   links:
     - label: "GitHub"
-      icon: "fab fa-fw fa-github"
+      icon: "fab fa-github-square"
       url: "https://github.com/alperengormez"
     - label: "LinkedIn"
       icon: "fab fa-linkedin"
