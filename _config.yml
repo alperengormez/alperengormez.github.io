@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Alperen Görmezqwe
+title: Alperen Görmez
 title_separator: "|"
 email: alperengormez@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
@@ -28,9 +28,9 @@ markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
 # Outputting
 permalink: /:categories/:title/
-paginate: 5 # amount of posts to show
-paginate_path: /page:num/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+# paginate: 5 # amount of posts to show
+# paginate_path: /page:num/
+timezone: America/Chicago
 
 include:
   - _pages
@@ -72,17 +72,17 @@ author:
       icon: "fas fa-envelope-square"
       url: "mailto:alperengormez@gmail.com"
 
-footer:
-  links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+# footer:
+  # links:
+    # - label: "Twitter"
+      # icon: "fab fa-fw fa-twitter-square"
+      # url: "https://twitter.com/"
+    # - label: "GitHub"
+      # icon: "fab fa-fw fa-github"
+      # url: "https://github.com/"
+    # - label: "Instagram"
+      # icon: "fab fa-fw fa-instagram"
+      # url: "https://instagram.com/"
 
 defaults:
   # _posts
