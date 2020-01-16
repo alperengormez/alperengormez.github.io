@@ -3,13 +3,15 @@ permalink: /contact/
 title: "Contact"
 author_profile: true
 ---
+<p>
+<b>Email</b>:  alperengormez [at] gmail [dot] com
+               agorme2 [at] uic [dot] edu
+</p>
 
-**Email**:  alperengormez [at] gmail [dot] com(space, space)
-         agorme2 [at] uic [dot] edu(space, space)
-
-**Address**: 950 S Halsted St.(space, space)
-         Science and Engineering Labs(space, space)
-		 Room 4250(space, space)
-		 Chicago, IL 60607(space, space)
-
+<p>
+<b>Address</b>: 950 S Halsted St.
+         Science and Engineering Labs
+		 Room 4250
+		 Chicago, IL 60607
+</p>
 
