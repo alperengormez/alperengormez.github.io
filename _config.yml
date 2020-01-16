@@ -18,7 +18,6 @@ title: Alperen Görmez
 title_separator: "|"
 description: "Welcome to Alperen Görmez's personal webpage."
 url                      : "https://alperengormez.github.io/"
-baseurl                  : "/home"
 logo: #
 github_username: alperengormez
 search: true
@@ -63,7 +62,6 @@ author:
   avatar : "/assets/images/bio-photo.jpg"
   bio    : "I am a Ph.D. student in Electrical and Computer Engineering at University of Illinois at Chicago."
   location: "Chicago, IL"
-  email: alperengormez@gmail.com
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
