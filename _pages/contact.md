@@ -4,6 +4,12 @@ title: "Contact"
 author_profile: true
 ---
 
-My contact information:
+*e-Mail*: alperengormez [at] gmail [dot] com
+          agorme2 [at] uic [dot] edu
+
+Address:  950 S Halsted St.
+          Science and Engineering Labs
+		  Room 4250
+		  Chicago, IL 60607
 
 
