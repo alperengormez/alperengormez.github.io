@@ -13,7 +13,7 @@
   max-width: 100%;
   -webkit-animation-delay: 0.15s;
   animation-delay: 0.15s;
-
+  font-size: $type-size-6;
   @include breakpoint($x-large) {
     max-width: $max-width;
   }
@@ -23,6 +23,7 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  font-size: $type-size-6;
   min-height: 100vh;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
