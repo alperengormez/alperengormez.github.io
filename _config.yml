@@ -18,7 +18,7 @@ title: Alperen Görmez
 title_separator: "|"
 description: "Welcome to Alperen Görmez's personal webpage."
 url                      : "https://alperengormez.github.io/"
-baseurl                  : "https://alperengormez.github.io/home"
+baseurl                  : "/home"
 logo: #
 github_username: alperengormez
 search: true
