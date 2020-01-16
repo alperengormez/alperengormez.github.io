@@ -13,15 +13,16 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
+minimal_mistakes_skin: dirt
 title: Alperen Görmez
 title_separator: "|"
-email: alperengormez@gmail.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Welcome to Alperen Görmez's personal webpage.
+description: "Welcome to Alperen Görmez's personal webpage."
+url                      : "https://alperengormez.github.io/"
+baseurl                  : "https://alperengormez.github.io/home"
+logo: #
 github_username: alperengormez
-minimal_mistakes_skin: dirt
 search: true
-og_image: "/assets/images/uic_logo.jpg"
+
 
 # Build settings
 markdown: kramdown
@@ -56,33 +57,24 @@ plugins:
   - jemoji
   - jekyll-include-cache
 
+
 author:
   name   : "Alperen Görmez"
   avatar : "/assets/images/bio-photo.jpg"
   bio    : "I am a Ph.D. student in Electrical and Computer Engineering at University of Illinois at Chicago."
   location: "Chicago, IL"
+  email: alperengormez@gmail.com
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/alperengormez"
     - label: "LinkedIn"
-      icon: "fab fa-linkedin"
+      icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/alperengormez/"
     - label: "e-Mail"
-      icon: "fas fa-envelope-square"
+      icon: "fas fa-fw fa-envelope-square"
       url: "mailto:alperengormez@gmail.com"
 
-# footer:
-  # links:
-    # - label: "Twitter"
-      # icon: "fab fa-fw fa-twitter-square"
-      # url: "https://twitter.com/"
-    # - label: "GitHub"
-      # icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
-    # - label: "Instagram"
-      # icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
 
 defaults:
   # _posts
