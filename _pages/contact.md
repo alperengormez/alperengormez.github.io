@@ -4,8 +4,8 @@ title: "Contact"
 author_profile: true
 ---
 <p>
-<br><b>Email</b>: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;alperengormez [at] gmail [dot] com
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;agorme2 [at] uic [dot] edu
+<br><b>Email</b>: &nbsp;&nbsp;&nbsp;&nbsp;alperengormez [at] gmail [dot] com
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;agorme2 [at] uic [dot] edu
 </p>
 
 <p>
