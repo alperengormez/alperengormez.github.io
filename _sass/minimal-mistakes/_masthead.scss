@@ -44,9 +44,9 @@
 }
 
 .site-title {
-  display: none;
-  display: none;
-  display: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -ms-flex-item-align: center;
   align-self: center;
   font-weight: bold;
