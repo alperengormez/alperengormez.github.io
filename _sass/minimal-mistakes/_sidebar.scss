@@ -176,7 +176,8 @@
   @include breakpoint($large) {
     margin-top: 10px;
     margin-bottom: 20px;
-	font-size: $type-size-7;
+	font-family: $times;
+	font-size: $type-size-6;
   }
 }
 
