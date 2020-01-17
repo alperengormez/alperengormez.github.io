@@ -4,12 +4,15 @@ title: "Contact"
 author_profile: true
 ---
 <p>
-<br><b>Email:</b> &nbsp;&nbsp;&nbsp;&nbsp;alperengormez [at] gmail [dot] com
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;agorme2 [at] uic [dot] edu
+<br><b>Email:</b>
+<br>alperengormez [at] gmail [dot] com
+<br>agorme2 [at] uic [dot] edu
 <br>
-<br><b>Address:</b> 950 S Halsted St.
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Science and Engineering Labs
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Room 4250
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Chicago, IL 60607
+<br>
+<br><b>Address:</b>
+<br>950 S Halsted St.
+<br>Science and Engineering Labs
+<br>Room 4250
+<br>Chicago, IL 60607
 </p>
 
