@@ -23,7 +23,9 @@ url                      : "https://alperengormez.github.io/"
 logo: #
 github_username: alperengormez
 search: true
-
+repository: alperengormez/alperengormez.github.io
+# Google Analytics
+google_analytics: UA-156444462-1
 
 # Build settings
 markdown: kramdown
