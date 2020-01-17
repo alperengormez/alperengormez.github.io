@@ -1,0 +1,493 @@
+Matchday 1
+
+Arsenal FC               4-3  Leicester City
+Watford FC               3-3  Liverpool FC
+Chelsea FC               2-3  Burnley FC
+Crystal Palace           0-3  Huddersfield Town
+Everton FC               1-0  Stoke City
+Southampton FC           0-0  Swansea City
+West Bromwich Albion     1-0  AFC Bournemouth
+Brighton & Hove Albion   0-2  Manchester City
+Newcastle United         0-2  Tottenham Hotspur
+Manchester United        4-0  West Ham United
+
+Matchday 2
+
+Swansea City             0-4  Manchester United
+AFC Bournemouth          0-2  Watford FC
+Burnley FC               0-1  West Bromwich Albion
+Leicester City           2-0  Brighton & Hove Albion
+Liverpool FC             1-0  Crystal Palace
+Southampton FC           3-2  West Ham United
+Stoke City               1-0  Arsenal FC
+Huddersfield Town        1-0  Newcastle United
+Tottenham Hotspur        1-2  Chelsea FC
+Manchester City          1-1  Everton FC
+
+Matchday 3
+
+AFC Bournemouth          1-2  Manchester City
+Crystal Palace           0-2  Swansea City
+Huddersfield Town        0-0  Southampton FC
+Newcastle United         3-0  West Ham United
+Watford FC               0-0  Brighton & Hove Albion
+Manchester United        2-0  Leicester City
+West Bromwich Albion     1-1  Stoke City
+Liverpool FC             4-0  Arsenal FC
+Chelsea FC               2-0  Everton FC
+Tottenham Hotspur        1-1  Burnley FC
+
+Matchday 4
+
+Manchester City          5-0  Liverpool FC
+Arsenal FC               3-0  AFC Bournemouth
+Brighton & Hove Albion   3-1  West Bromwich Albion
+Everton FC               0-3  Tottenham Hotspur
+Leicester City           1-2  Chelsea FC
+Southampton FC           0-2  Watford FC
+Stoke City               2-2  Manchester United
+Burnley FC               1-0  Crystal Palace
+Swansea City             0-1  Newcastle United
+West Ham United          2-0  Huddersfield Town
+
+Matchday 5
+
+AFC Bournemouth          2-1  Brighton & Hove Albion
+Crystal Palace           0-1  Southampton FC
+Huddersfield Town        1-1  Leicester City
+Liverpool FC             1-1  Burnley FC
+Newcastle United         2-1  Stoke City
+Watford FC               0-6  Manchester City
+West Bromwich Albion     0-0  West Ham United
+Tottenham Hotspur        0-0  Swansea City
+Chelsea FC               0-0  Arsenal FC
+Manchester United        4-0  Everton FC
+
+Matchday 6
+
+West Ham United          2-3  Tottenham Hotspur
+Burnley FC               0-0  Huddersfield Town
+Everton FC               2-1  AFC Bournemouth
+Manchester City          5-0  Crystal Palace
+Southampton FC           0-1  Manchester United
+Stoke City               0-4  Chelsea FC
+Swansea City             1-2  Watford FC
+Leicester City           2-3  Liverpool FC
+Brighton & Hove Albion   1-0  Newcastle United
+Arsenal FC               2-0  West Bromwich Albion
+
+Matchday 7
+
+Huddersfield Town        0-4  Tottenham Hotspur
+AFC Bournemouth          0-0  Leicester City
+Manchester United        4-0  Crystal Palace
+Stoke City               2-1  Southampton FC
+West Bromwich Albion     2-2  Watford FC
+West Ham United          1-0  Swansea City
+Chelsea FC               0-1  Manchester City
+Arsenal FC               2-0  Brighton & Hove Albion
+Everton FC               0-1  Burnley FC
+Newcastle United         1-1  Liverpool FC
+
+Matchday 8
+
+Burnley FC               1-1  West Ham United
+Crystal Palace           2-1  Chelsea FC
+Liverpool FC             0-0  Manchester United
+Manchester City          7-2  Stoke City
+Swansea City             2-0  Huddersfield Town
+Tottenham Hotspur        1-0  AFC Bournemouth
+Watford FC               2-1  Arsenal FC
+Brighton & Hove Albion   1-1  Everton FC
+Southampton FC           2-2  Newcastle United
+Leicester City           1-1  West Bromwich Albion
+
+Matchday 9
+
+West Ham United          0-3  Brighton & Hove Albion
+Chelsea FC               4-2  Watford FC
+Huddersfield Town        2-1  Manchester United
+Manchester City          3-0  Burnley FC
+Newcastle United         1-0  Crystal Palace
+Southampton FC           1-0  West Bromwich Albion
+Stoke City               1-2  AFC Bournemouth
+Swansea City             1-2  Leicester City
+Tottenham Hotspur        4-1  Liverpool FC
+Everton FC               2-5  Arsenal FC
+
+Matchday 10
+
+AFC Bournemouth          0-1  Chelsea FC
+Arsenal FC               2-1  Swansea City
+Crystal Palace           2-2  West Ham United
+Liverpool FC             3-0  Huddersfield Town
+Manchester United        1-0  Tottenham Hotspur
+Watford FC               0-1  Stoke City
+West Bromwich Albion     2-3  Manchester City
+Brighton & Hove Albion   1-1  Southampton FC
+Leicester City           2-0  Everton FC
+Burnley FC               1-0  Newcastle United
+
+Matchday 11
+
+Huddersfield Town        1-0  West Bromwich Albion
+Newcastle United         0-1  AFC Bournemouth
+Southampton FC           0-1  Burnley FC
+Stoke City               2-2  Leicester City
+Swansea City             0-1  Brighton & Hove Albion
+West Ham United          1-4  Liverpool FC
+Chelsea FC               1-0  Manchester United
+Everton FC               3-2  Watford FC
+Manchester City          3-1  Arsenal FC
+Tottenham Hotspur        1-0  Crystal Palace
+
+Matchday 12
+
+AFC Bournemouth          4-0  Huddersfield Town
+Arsenal FC               2-0  Tottenham Hotspur
+Burnley FC               2-0  Swansea City
+Crystal Palace           2-2  Everton FC
+Leicester City           0-2  Manchester City
+Liverpool FC             3-0  Southampton FC
+Manchester United        4-1  Newcastle United
+West Bromwich Albion     0-4  Chelsea FC
+Watford FC               2-0  West Ham United
+Brighton & Hove Albion   2-2  Stoke City
+
+Matchday 13
+
+West Ham United         1-1  Leicester City
+Crystal Palace          2-1  Stoke City
+Liverpool FC            1-1  Chelsea FC
+Manchester United       1-0  Brighton & Hove Albion
+Newcastle United        0-3  Watford FC
+Swansea City            0-0  AFC Bournemouth
+Tottenham Hotspur       1-1  West Bromwich Albion
+Burnley FC              0-1  Arsenal FC
+Southampton FC          4-1  Everton FC
+Huddersfield Town       1-2  Manchester City
+
+Matchday 14
+
+Brighton & Hove Albion   0-0  Crystal Palace
+Leicester City           2-1  Tottenham Hotspur
+Watford FC               2-4  Manchester United
+West Bromwich Albion     2-2  Newcastle United
+Chelsea FC               1-0  Swansea City
+Everton FC               4-0  West Ham United
+Manchester City          2-1  Southampton FC
+Stoke City               0-3  Liverpool FC
+AFC Bournemouth          1-2  Burnley FC
+Arsenal FC               5-0  Huddersfield Town
+
+Matchday 15
+
+Arsenal FC               1-3  Manchester United
+Brighton & Hove Albion   1-5  Liverpool FC
+Chelsea FC               3-1  Newcastle United
+Everton FC               2-0  Huddersfield Town
+Leicester City           1-0  Burnley FC
+Stoke City               2-1  Swansea City
+Watford FC               1-1  Tottenham Hotspur
+West Bromwich Albion     0-0  Crystal Palace
+AFC Bournemouth          1-1  Southampton FC
+Manchester City          2-1  West Ham United
+
+Matchday 16
+
+Burnley FC               1-0  Watford FC
+Crystal Palace           2-2  AFC Bournemouth
+Huddersfield Town        2-0  Brighton & Hove Albion
+Newcastle United         2-3  Leicester City
+Swansea City             1-0  West Bromwich Albion
+Tottenham Hotspur        5-1  Stoke City
+West Ham United          1-0  Chelsea FC
+Liverpool FC             1-1  Everton FC
+Manchester United        1-2  Manchester City
+Southampton FC           1-1  Arsenal FC
+
+Matchday 17
+
+Burnley FC               1-0  Stoke City
+Crystal Palace           2-1  Watford FC
+Huddersfield Town        1-3  Chelsea FC
+Liverpool FC             0-0  West Bromwich Albion
+Newcastle United         0-1  Everton FC
+Southampton FC           1-4  Leicester City
+Tottenham Hotspur        2-0  Brighton & Hove Albion
+Manchester United        1-0  AFC Bournemouth
+Swansea City             0-4  Manchester City
+West Ham United          0-0  Arsenal FC
+
+Matchday 18
+
+Arsenal FC               1-0  Newcastle United
+Brighton & Hove Albion   0-0  Burnley FC
+Chelsea FC               1-0  Southampton FC
+Leicester City           0-3  Crystal Palace
+Manchester City          4-1  Tottenham Hotspur
+Stoke City               0-3  West Ham United
+Watford FC               1-4  Huddersfield Town
+AFC Bournemouth          0-4  Liverpool FC
+West Bromwich Albion     1-2  Manchester United
+Everton FC               3-1  Swansea City
+
+Matchday 19
+
+Arsenal FC               3-3  Liverpool FC
+Brighton & Hove Albion   1-0  Watford FC
+Burnley FC               0-3  Tottenham Hotspur
+Leicester City           2-2  Manchester United
+Manchester City          4-0  AFC Bournemouth
+Southampton FC           1-1  Huddersfield Town
+Stoke City               3-1  West Bromwich Albion
+Swansea City             1-1  Crystal Palace
+West Ham United          2-3  Newcastle United
+Everton FC               0-0  Chelsea FC
+
+Matchday 20
+
+AFC Bournemouth          3-3  West Ham United
+Chelsea FC               2-0  Brighton & Hove Albion
+Huddersfield Town        1-1  Stoke City
+Liverpool FC             5-0  Swansea City
+Manchester United        2-2  Burnley FC
+Tottenham Hotspur        5-2  Southampton FC
+Watford FC               2-1  Leicester City
+West Bromwich Albion     0-0  Everton FC
+Newcastle United         0-1  Manchester City
+Crystal Palace           2-3  Arsenal FC
+
+Matchday 21
+
+AFC Bournemouth          2-1  Everton FC
+Chelsea FC               5-0  Stoke City
+Huddersfield Town        0-0  Burnley FC
+Liverpool FC             2-1  Leicester City
+Manchester United        0-0  Southampton FC
+Newcastle United         0-0  Brighton & Hove Albion
+Watford FC               1-2  Swansea City
+Crystal Palace           0-0  Manchester City
+West Bromwich Albion     1-1  Arsenal FC
+Tottenham Hotspur        1-1  West Ham United
+
+Matchday 22
+
+Brighton & Hove Albion      2-2  AFC Bournemouth
+Burnley FC                  1-2  Liverpool FC
+Everton FC                  0-2  Manchester United
+Leicester City              3-0  Huddersfield Town
+Stoke City                  0-1  Newcastle United
+Manchester City             3-1  Watford FC
+Southampton FC              1-2  Crystal Palace
+Swansea City                0-2  Tottenham Hotspur
+West Ham United             2-1  West Bromwich Albion
+Arsenal FC                  2-2  Chelsea FC
+
+Matchday 23
+
+Chelsea FC                  0-0  Leicester City
+Crystal Palace              1-0  Burnley FC
+Huddersfield Town           1-4  West Ham United
+Newcastle United            1-1  Swansea City
+Tottenham Hotspur           4-0  Everton FC
+Watford FC                  2-2  Southampton FC
+West Bromwich Albion        2-0  Brighton & Hove Albion
+AFC Bournemouth             2-1  Arsenal FC
+Liverpool FC                4-3  Manchester City
+Manchester United           3-0  Stoke City
+
+Matchday 24
+
+Arsenal FC                  4-1  Crystal Palace
+Brighton & Hove Albion      0-4  Chelsea FC
+Burnley FC                  0-1  Manchester United
+Everton FC                  1-1  West Bromwich Albion
+Leicester City              2-0  Watford FC
+Manchester City             3-1  Newcastle United
+Stoke City                  2-0  Huddersfield Town
+West Ham United             1-1  AFC Bournemouth
+Southampton FC              1-1  Tottenham Hotspur
+Swansea City                1-0  Liverpool FC
+
+Matchday 25
+
+Huddersfield Town           0-3  Liverpool FC
+Swansea City                3-1  Arsenal FC
+West Ham United             1-1  Crystal Palace
+Chelsea FC                  0-3  AFC Bournemouth
+Everton FC                  2-1  Leicester City
+Manchester City             3-0  West Bromwich Albion
+Newcastle United            1-1  Burnley FC
+Southampton FC              1-1  Brighton & Hove Albion
+Stoke City                  0-0  Watford FC
+Tottenham Hotspur           2-0  Manchester United
+
+Matchday 26
+
+AFC Bournemouth             2-1  Stoke City
+Arsenal FC                  5-1  Everton FC
+Brighton & Hove Albion      3-1  West Ham United
+Burnley FC                  1-1  Manchester City
+Leicester City              1-1  Swansea City
+Manchester United           2-0  Huddersfield Town
+West Bromwich Albion        2-3  Southampton FC
+Crystal Palace              1-1  Newcastle United
+Liverpool FC                2-2  Tottenham Hotspur
+Watford FC                  4-1  Chelsea FC
+
+Matchday 27
+
+Everton FC                  3-1  Crystal Palace
+Manchester City             5-1  Leicester City
+Stoke City                  1-1  Brighton & Hove Albion
+Swansea City                1-0  Burnley FC
+Tottenham Hotspur           1-0  Arsenal FC
+West Ham United             2-0  Watford FC
+Newcastle United            1-0  Manchester United
+Southampton FC              0-2  Liverpool FC
+Huddersfield Town           4-1  AFC Bournemouth
+Chelsea FC                  3-0  West Bromwich Albion
+
+Matchday 28
+
+AFC Bournemouth             2-2  Newcastle United
+Brighton & Hove Albion      4-1  Swansea City
+Burnley FC                  1-1  Southampton FC
+Leicester City              1-1  Stoke City
+Liverpool FC                4-1  West Ham United
+Watford FC                  1-0  Everton FC
+West Bromwich Albion        1-2  Huddersfield Town
+Manchester United           2-1  Chelsea FC
+Crystal Palace              0-1  Tottenham Hotspur
+Arsenal FC                  0-3  Manchester City
+
+Matchday 29
+
+Burnley FC                  2-1  Everton FC
+Leicester City              1-1  AFC Bournemouth
+Liverpool FC                2-0  Newcastle United
+Southampton FC              0-0  Stoke City
+Swansea City                4-1  West Ham United
+Tottenham Hotspur           2-0  Huddersfield Town
+Watford FC                  1-0  West Bromwich Albion
+Brighton & Hove Albion      2-1  Arsenal FC
+Manchester City             1-0  Chelsea FC
+Crystal Palace              2-3  Manchester United
+
+Matchday 30
+
+Chelsea FC                  2-1  Crystal Palace
+Everton FC                  2-0  Brighton & Hove Albion
+Huddersfield Town           0-0  Swansea City
+Manchester United           2-1  Liverpool FC
+Newcastle United            3-0  Southampton FC
+West Bromwich Albion        1-4  Leicester City
+West Ham United             0-3  Burnley FC
+AFC Bournemouth             1-4  Tottenham Hotspur
+Arsenal FC                  3-0  Watford FC
+Stoke City                  0-2  Manchester City
+
+Matchday 31
+
+Tottenham Hotspur           1-0  Newcastle United
+AFC Bournemouth             2-1  West Bromwich Albion
+Burnley FC                  1-2  Chelsea FC
+Huddersfield Town           0-2  Crystal Palace
+Leicester City              3-1  Arsenal FC
+Liverpool FC                5-0  Watford FC
+Stoke City                  1-2  Everton FC
+Swansea City                0-1  Southampton FC
+West Ham United             0-0  Manchester United
+Manchester City             3-1  Brighton & Hove Albion
+
+Matchday 32
+
+Brighton & Hove Albion      0-2  Leicester City
+Crystal Palace              1-2  Liverpool FC
+Everton FC                  1-3  Manchester City
+Manchester United           2-0  Swansea City
+Newcastle United            1-0  Huddersfield Town
+West Ham United             3-0  Southampton FC
+Watford FC                  2-2  AFC Bournemouth
+West Bromwich Albion        1-2  Burnley FC
+Arsenal FC                   3-0  Stoke City
+Chelsea FC                   1-3  Tottenham Hotspur
+
+Matchday 33
+
+AFC Bournemouth             2-2  Crystal Palace
+Brighton & Hove Albion      1-1  Huddersfield Town
+Everton FC                  0-0  Liverpool FC
+Leicester City              1-2  Newcastle United
+Manchester City             2-3  Manchester United
+Stoke City                  1-2  Tottenham Hotspur
+Watford FC                  1-2  Burnley FC
+West Bromwich Albion        1-1  Swansea City
+Arsenal FC                  3-2  Southampton FC
+Chelsea FC                  1-1  West Ham United
+
+Matchday 34
+
+Burnley FC                  2-1  Leicester City
+Crystal Palace              3-2  Brighton & Hove Albion
+Huddersfield Town           1-0  Watford FC
+Liverpool FC                3-0  AFC Bournemouth
+Southampton FC              2-3  Chelsea FC
+Swansea City                1-1  Everton FC
+Tottenham Hotspur           1-3  Manchester City
+Manchester United           0-1  West Bromwich Albion
+Newcastle United            2-1  Arsenal FC
+West Ham United             1-1  Stoke City
+
+Matchday 35
+
+Brighton & Hove Albion      1-1  Tottenham Hotspur
+AFC Bournemouth             0-2  Manchester United
+Chelsea FC                  1-1  Huddersfield Town
+Leicester City              0-0  Southampton FC
+Watford FC                  0-0  Crystal Palace
+West Bromwich Albion        2-2  Liverpool FC
+Manchester City             5-0  Swansea City
+Stoke City                  1-1  Burnley FC
+Arsenal FC                  4-1  West Ham United
+Everton FC                  1-0  Newcastle United
+
+Matchday 36
+
+Burnley FC                  0-0  Brighton & Hove Albion
+Crystal Palace              5-0  Leicester City
+Liverpool FC                0-0  Stoke City
+Newcastle United            0-1  West Bromwich Albion
+Southampton FC              2-1  AFC Bournemouth
+Swansea City                0-1  Chelsea FC
+Huddersfield Town           0-2  Everton FC
+West Ham United             1-4  Manchester City
+Manchester United           2-1  Arsenal FC
+Tottenham Hotspur           2-0  Watford FC
+
+Matchday 37
+
+Brighton & Hove Albion      1-0  Manchester United
+AFC Bournemouth             1-0  Swansea City
+Everton FC                  1-1  Southampton FC
+Leicester City              0-2  West Ham United
+Stoke City                  1-2  Crystal Palace
+Watford FC                  2-1  Newcastle United
+West Bromwich Albion        1-0  Tottenham Hotspur
+Arsenal FC                  5-0  Burnley FC
+Chelsea FC                  1-0  Liverpool FC
+Manchester City             0-0  Huddersfield Town
+
+Matchday 38
+
+Burnley FC                 1-3  AFC Bournemouth
+Crystal Palace             2-0  West Bromwich Albion
+Huddersfield Town          0-1  Arsenal FC
+Liverpool FC               4-0  Brighton & Hove Albion
+Manchester United          1-0  Watford FC
+Newcastle United           3-0  Chelsea FC
+Southampton FC             0-1  Manchester City
+Swansea City               1-2  Stoke City
+Tottenham Hotspur          5-4  Leicester City
+West Ham United            3-1  Everton FC
