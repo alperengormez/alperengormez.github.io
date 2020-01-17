@@ -81,6 +81,6 @@ We evaluate our model in the test set: 8 weeks (80 matches). There will be high 
 
 So, we are now able to predict the result of a match (O2.5 or U2.5) with 61% accuracy. This is better than the "dumb" baseline 50%. Suppose you are betting on 3 matches. If you are betting randomly, then you have a 12.5% chance of winning in total. However, you have ~23% chance if you use the model. Maybe your intuition performs better than this model, maybe not. What is certain is that you can use this approach while betting. It certainly gives you useful information.
 
-If you want to apply this work to the current season, first you should have the dataset. However, since the current season is ongoing, you will have less data. You will have not even 380 matches. Therefore, your model will perform worse compared to this one. Nevertheless, it will give you higher chance since you are utilizing a neural network.
+If you want to apply this work to the current season, first you should have the dataset. However, since the current season is ongoing, you will have less data. You will have not even 380 matches. Therefore, your model will perform worse compared to this one. Nevertheless, it will give you higher chance of winning compared to a bet that does not use the model, since you are utilizing a neural network.
 
 The source code of this work can be found <a href="https://github.com/alperengormez/data-analysis-epl1718">here</a>.
