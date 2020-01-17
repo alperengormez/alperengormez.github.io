@@ -32,7 +32,7 @@ Newcastle United         0-2  Tottenham Hotspur
 Manchester United        4-0  West Ham United
 ```
 
-It is important for our dataset to be balanced. In other words, the number of O2.5 and U2.5 matches should be close in order for the neural network to generalize well. From the figure below, we can see that we have a fairly balanced dataset. It would be better if we had a more balanced dataset, but that is what we have.
+It is important for our dataset to be balanced. In other words, the number of O2.5 and U2.5 matches should be close in order for the neural network to generalize well. From the figure below, we can see that we have a fairly balanced dataset. The numbers are not too far from each other. The network will tend to predict a match to be O2.5 though, because of the difference in the dataset. It would be better if we had a more balanced dataset, but that is what we have.
 
 ![Number of O2.5 and U2.5 matches in EPL 2017-2018]({{ site.url }}/assets/data_analysis_epl1718/ou25.jpg)
 
@@ -42,7 +42,7 @@ In addition to the 6 features given above, we should take into account which tea
 
 ![The results of Liverpool's home games in terms of O2.5 and U2.5]({{ site.url }}/assets/data_analysis_epl1718/liv_home.jpg)
 
-![The results of Liverpool's away games in terms of O2.5 and U2.5]({{ site.url }}/assets/data_analysis_epl1718/liv_home.jpg)
+![The results of Liverpool's away games in terms of O2.5 and U2.5]({{ site.url }}/assets/data_analysis_epl1718/liv_away.jpg)
 
 As it can be seen above, Liverpool's home and away results are different in terms of O2.5/U2.5. This is the case in general. Home and away performances of the teams usually differ. In fact, home teams are thought to be advantegous generally.
 
@@ -52,7 +52,7 @@ For the neural network, I have used RMSProp, binary cross-entropy and accuracy a
 
 ![Model architecture]({{ site.url }}/assets/data_analysis_epl1718/architecture.jpg)
 
-Since the data is tabular, I did not see a need to use convolutional neural networks. I did not use recurrent neural networks because the data is not exactly sequential. There are multiple teams and number of matches each team play is very low.
+Since the data is tabular, I did not see a need to use convolutional neural networks. I did not use recurrent neural networks because the data is not exactly sequential. There are multiple teams and number of matches each team play is very low. The architecture I used is not necessarily the best one. The hyperparameters of the network can be tuned to achieve higher performance.
 
 First, we take a look at the training and validation losses of the network.
 
@@ -68,29 +68,14 @@ Because of the overfitting, the increase in the validation accuracy stops at som
 
 From the plots above, we see that it is a nice idea to stop training after 10 epochs. After modifying the number of epochs to train the network, we train the network again and obtain the following plots.
 
-*--loss and acc plots**-
+![Training and validation losses after 10 epochs]({{ site.url }}/assets/data_analysis_epl1718/train_val_loss_10.jpg)
 
-We evaluate our model in the test set: 8 weeks (80 matches). There will be high variance in the result since the number of samples in the test set is too low. Every time we run the whole code, we will get different results in the range 57-75%.
+![Training and validation accuracies after 10 epochs]({{ site.url }}/assets/data_analysis_epl1718/train_val_acc_10.jpg)
 
-*-*test set evaluation-*-*
+Looks much better. However, I should say that there is an element of luck because there is a high variance in the performance due to the low amount of data. You are probably tired of reading "performance is not the best due to low amount of data" again and again but this is a common and serious issue in machine learning and deep learning. Since the dataset I am working on is naturally not rich in terms of number of samples, we can do not much but pray. At this point may be you have thought "Why not use the previous seasons as well?". The reason we cannot do that is the league is dynamic. The teams playing in the league change, the players change, the coaches and the football tactics of the team changes and so on. At the time of writing this post (Jan 16, 2020), Liverpool is dominating the league. If you use the 2010-2011 EPL season too in your dataset, you will get poor performance because the team was not as good as today.
 
-This is the best we can do.
-All children, except one, grow up. They soon know that they will grow up, and the way Wendy knew was this. One day when she was two years old she was playing in a garden, and she plucked another flower and ran with it to her mother. I suppose she must have looked rather delightful, for Mrs. Darling put her hand to her heart and cried, "Oh, why can't you remain like this for ever!" This was all that passed between them on the subject, but henceforth Wendy knew that she must grow up. You always know after you are two. Two is the beginning of the end.
+We evaluate our model in the test set: 8 weeks (80 matches). There will be high variance in the result since the number of samples in the test set is too low. Every time we run the whole code, we will get different results in the range 55-70%. To get a meaningful result, I run the code 100 times and took the average. The performance in the test set is 60%. This is the best we can do with the current setup. Maybe one can use advanced techniques such as few-shot learning algorithms to increase the performance. Or the hyperparameters can be tuned.
 
-Mrs. Darling first heard of Peter when she was tidying up her children's minds. It is the nightly custom of every good mother after her children are asleep to rummage in their minds and put things straight for next morning, repacking into their proper places the many articles that have wandered during the day.
+So, we are now able to predict the result of a match (O2.5 or U2.5) with 60% accuracy. This is better than the "dumb" baseline 50%. Suppose you are betting on 3 matches. If you are betting randomly, then you have a 12.5% of winning in total. However, you have ~22% chance if you use the model. Maybe your intuition performs better than this model, maybe not. What is certain is that you can use this approach while betting. It certainly gives you useful information.
 
-
-
-This post has a manual excerpt `<!--more-->` set after the second paragraph. The following YAML Front Matter has also be applied:
-
-
-
-If you could keep awake (but of course you can't) you would see your own mother doing this, and you would find it very interesting to watch her. It is quite like tidying up drawers. You would see her on her knees, I expect, lingering humorously over some of your contents, wondering where on earth you had picked this thing up, making discoveries sweet and not so sweet, pressing this to her cheek as if it were as nice as a kitten, and hurriedly stowing that out of sight. When you wake in the morning, the naughtiness and evil passions with which you went to bed have been folded up small and placed at the bottom of your mind and on the top, beautifully aired, are spread out your prettier thoughts, ready for you to put on.
-
-I don't know whether you have ever seen a map of a person's mind. Doctors sometimes draw maps of other parts of you, and your own map can become intensely interesting, but catch them trying to draw a map of a child's mind, which is not only confused, but keeps going round all the time. There are zigzag lines on it, just like your temperature on a card, and these are probably roads in the island, for the Neverland is always more or less an island, with astonishing splashes of colour here and there, and coral reefs and rakish-looking craft in the offing, and savages and lonely lairs, and gnomes who are mostly tailors, and caves through which a river runs, and princes with six elder brothers, and a hut fast going to decay, and one very small old lady with a hooked nose. It would be an easy map if that were all, but there is also first day at school, religion, fathers, the round pond, needle-work, murders, hangings, verbs that take the dative, chocolate pudding day, getting into braces, say ninety-nine, three-pence for pulling out your tooth yourself, and so on, and either these are part of the island or they are another map showing through, and it is all rather confusing, especially as nothing will stand still.
-
-Of course the Neverlands vary a good deal. John's, for instance, had a lagoon with flamingoes flying over it at which John was shooting, while Michael, who was very small, had a flamingo with lagoons flying over it. John lived in a boat turned upside down on the sands, Michael in a wigwam, Wendy in a house of leaves deftly sewn together. John had no friends, Michael had friends at night, Wendy had a pet wolf forsaken by its parents, but on the whole the Neverlands have a family resemblance, and if they stood still in a row you could say of them that they have each other's nose, and so forth. On these magic shores children at play are for ever beaching their coracles [simple boat]. We too have been there; we can still hear the sound of the surf, though we shall land no more.
-
-Of all delectable islands the Neverland is the snuggest and most compact, not large and sprawly, you know, with tedious distances between one adventure and another, but nicely crammed. When you play at it by day with the chairs and table-cloth, it is not in the least alarming, but in the two minutes before you go to sleep it becomes very real. That is why there are night-lights.
-
-Occasionally in her travels through her children's minds Mrs. Darling found things she could not understand, and of these quite the most perplexing was the word Peter. She knew of no Peter, and yet he was here and there in John and Michael's minds, while Wendy's began to be scrawled all over with him. The name stood out in bolder letters than any of the other words, and as Mrs. Darling gazed she felt that it had an oddly cocky appearance.
+If you want to apply this work to the current season, first you should have the dataset. However, since the current season is ongoing, you will have less data. You will have not even 380 matches. Therefore, your model will perform worse compared to this one. However, since I have done this experiment just to document my work in somewhere, I do not care.
