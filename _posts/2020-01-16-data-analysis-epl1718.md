@@ -81,4 +81,4 @@ So, we are now able to predict the result of a match (O2.5 or U2.5) with 60% acc
 
 If you want to apply this work to the current season, first you should have the dataset. However, since the current season is ongoing, you will have less data. You will have not even 380 matches. Therefore, your model will perform worse compared to this one.
 
-The source code of this work can be found at <a href="https://github.com/alperengormez/data-analysis-epl1718">here</a>.
+The source code of this work can be found <a href="https://github.com/alperengormez/data-analysis-epl1718">here</a>.
