@@ -33,7 +33,7 @@ Newcastle United         0-2  Tottenham Hotspur
 Manchester United        4-0  West Ham United
 ```
 
-It is important for our dataset to be balanced. In other words, the number of O2.5 and U2.5 matches should be close in order for the neural network to generalize well. From the figure below, we can see that we have a fairly balanced dataset. The numbers are not too far from each other. The network will tend to predict a match to be O2.5 though, because of the difference in the dataset. It would be better if we had a more balanced dataset, but that is what we have.
+It is important for our dataset to be balanced. In other words, the number of O2.5 and U2.5 matches should be close in order for the neural network to generalize well. From the figure below, we can see that we have a somewhat balanced dataset. The numbers are not too far from each other. The network will tend to predict a match to be O2.5 though, because of the difference in the dataset. It would be better if we had a more balanced dataset, but that is what we have.
 
 ![Number of O2.5 and U2.5 matches in EPL 2017-2018]({{ site.url }}/assets/data_analysis_epl1718/ou25.jpg)
 
