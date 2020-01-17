@@ -4,9 +4,10 @@ title: "Data Analysis of EPL 2017-2018 Season"
 categories:
   - Blog
 tags:
-  - Post Formats
-  - readability
-  - standard
+  - data
+  - analysis
+  - neural network
+  - visualization
 ---
 
 Have you ever placed a bet on a football match? If you have, there is a high probability that you lost. This post will help you increase your chance of winning.
