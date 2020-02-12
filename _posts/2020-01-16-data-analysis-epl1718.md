@@ -10,7 +10,7 @@ tags:
   - visualization
 ---
 
-Have you ever placed a bet on a football match? If you have, there is a high probability that you lost. This post will help you increase your chance of winning.
+Have you ever placed a bet on a football match? If you have, there is a high probability that you have lost. This post will help you increase your chance of winning.
 
 First things first: Betting is bad --at least in my opinion. This post does not mean to encourage betting. Moreover, if you keep playing a game long enough, you will eventually end up losing. Therefore, you should know when to stop betting. The neural network I trained will tell you when.
 
