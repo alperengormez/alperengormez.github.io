@@ -53,7 +53,7 @@ For the neural network, I have used RMSProp, binary cross-entropy and accuracy a
 
 ![Model architecture]({{ site.url }}/assets/data_analysis_epl1718/architecture.jpg)
 
-Since the data is tabular, I did not see a need to use convolutional neural networks. I did not use recurrent neural networks either. However, it might be the correct architecture for this problem. The architecture I used is not necessarily the best one. The hyperparameters of the network can be tuned to achieve higher performance.
+Since the data is tabular, I did not see a need to use convolutional neural networks. I did not use recurrent neural networks either. However, recurrent neural networks might be the correct architecture for this problem. The architecture I used is not necessarily the best one. The hyperparameters of the network can be tuned to achieve higher performance. We should also note that there may be no need to use a neural network for this task. Gradient boosting or random forest classifier might outperform the simple neural network I used in this work. I might try all of these setups and update this post in the future.
 
 First, we take a look at the training and validation losses of the network.
 
