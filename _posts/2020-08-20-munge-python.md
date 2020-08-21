@@ -75,11 +75,11 @@ def munge( dataset, sizeMultiplier, swapProb, varParam):
     return synthetic
 ```
 
-For each example `e`  in the dataset, we find its nearest neighbor `e'`. Then, with probability `swapProb`, each attribute `e_a` is assigned a random value drawn from normal distribution with mean `e_a'` and standard deviation `|e_a - e_a'|/varParam` and vice versa. An experiment with the <a href="https://scikit-learn.org/stable/datasets/index.html#wine-dataset">sklearn Wine Recognition Dataset</a> can be seen below.
+For each example `e`  in the dataset, we find its nearest neighbor `e'`. Then, with probability `swapProb`, each attribute `e_a` is assigned a random value drawn from normal distribution with mean `e_a'` and standard deviation `|e_a - e_a'|/varParam`, and vice versa (`e_a'` is assigned a random value from normal with mean `e_a`). An experiment with the <a href="https://scikit-learn.org/stable/datasets/index.html#wine-dataset">sklearn Wine Recognition Dataset</a> can be seen below.
 
 ![Original Data]({{ site.url }}/assets/munge_python/original.png)
 
-![Synthetic Data]({{ site.url }}/assets/munge_python/synthetic.jpg)
+![Synthetic Data]({{ site.url }}/assets/munge_python/synthetic.png)
 
 It is important to note that the synthetic data is very sensitive to `swapProb` and `varParam`. Although MUNGE is simple, variational autoencoders or GANs (GANs are the state-of-the-art at the moment) should be used for data generation.
 
