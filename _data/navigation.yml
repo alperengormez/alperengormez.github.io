@@ -1,7 +1,9 @@
 main:
-  - title: "Resume"
-    url: /resume/
+  - title: "Publications"
+    url: /publications/
   - title: "Blog"
     url: /blog/
+  - title: "Resume"
+    url: /resume/
   - title: "Contact"
     url: /contact/
