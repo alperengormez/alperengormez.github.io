@@ -6,21 +6,16 @@ author_profile: true
 
 Links and blog posts will be available soon.
 
-<html>
 <style>
-
 figcaption {
-  background-color: black;
-  color: white;
-  font-style: italic;
   padding: 2px;
-  text-align: center;
+  text-align: left;
 }
 </style>
 
-<figure style="width: 250px" class="align-left">
-  <a href="/assets/publications/e2cmfig.png" title="e2cmfig" alt="e2cmfig">
+<figure style="width: 250px; float: left" class="align-left">
   <img src="/assets/publications/e2cmfig.png" alt=""></a>
+  asdkdflksdflsdldlkdslsdlkaslksa
   <figcaption>**1.** **A. Gormez**, V. Dasari, E. Koyuncu. "E<sup>2</sup>CM: Early Exit via Class Means for Efficient Supervised and Unsupervised Learning", IEEE World Congress on Computational Intelligence (WCCI): International Joint Conference on Neural Networks (IJCNN), July 2022.</figcaption>
 </figure>
 
