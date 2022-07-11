@@ -6,6 +6,17 @@ author_profile: true
 
 Links and blog posts will be available soon.
 
+figcaption {
+  background-color: black;
+  color: white;
+  font-style: italic;
+  padding: 2px;
+  text-align: center;
+}
+</style>
+</head>
+<body>
+
 
 <figure style="width: 250px" class="align-left">
   <a href="/assets/publications/e2cmfig.png" title="e2cmfig" alt="e2cmfig">
