@@ -15,12 +15,7 @@ figcaption {
 
 <figure style="width: 250px; float: left" class="align-left">
   <img src="/assets/publications/e2cmfig.png" alt=""></a>
-  asdkdflksdflsdldlkdslsdlkaslksa
-  <figcaption>**1.** **A. Gormez**, V. Dasari, E. Koyuncu. "E<sup>2</sup>CM: Early Exit via Class Means for Efficient Supervised and Unsupervised Learning", IEEE World Congress on Computational Intelligence (WCCI): International Joint Conference on Neural Networks (IJCNN), July 2022.</figcaption>
+  <p>asdkdflksdflsdldlkdslsdlkaslksa</p>
 </figure>
-
-![image-left]({{ site.url }}/assets/publications/e2cmfig.png){: .align-left} **1.** **A. Gormez**, V. Dasari, E. Koyuncu. "E<sup>2</sup>CM: Early Exit via Class Means for Efficient Supervised and Unsupervised Learning", IEEE World Congress on Computational Intelligence (WCCI): International Joint Conference on Neural Networks (IJCNN), July 2022.
-
-![image-left]({{ site.url }}/assets/publications/snnfig.png){: .align-left} **2.** **A. Gormez**, E. Koyuncu. "Pruning Early Exit Networks", Sparsity in Neural Networks 2022, July 2022.
 
 
