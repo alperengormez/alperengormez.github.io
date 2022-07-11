@@ -64,8 +64,8 @@ plugins:
 author:
   name   : "Alperen Görmez"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "I am a Ph.D. student at University of Illinois at Chicago, doing research on deep learning. 
-  Specifically, I am working on the trade-off between neural networks' computational cost and accuracy."
+  bio    : "I am a Ph.D. student at University of Illinois Chicago, doing research on deep learning. 
+  Specifically, I am working on the trade-off between neural networks' computational cost and performance."
   location: "Chicago, IL"
   links:
     - label: "GitHub"
