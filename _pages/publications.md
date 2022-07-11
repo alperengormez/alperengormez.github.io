@@ -9,7 +9,7 @@ Links and blog posts will be available soon.
 <style>
 div {
   padding-right: 10px;
-  padding-bottom: 30px;
+  padding-bottom: 5px;
 }
 .box {
    display: flex;
