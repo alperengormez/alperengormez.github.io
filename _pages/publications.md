@@ -6,6 +6,9 @@ author_profile: true
 
 Links and blog posts will be available soon.
 
+<html>
+<style>
+
 figcaption {
   background-color: black;
   color: white;
@@ -14,9 +17,6 @@ figcaption {
   text-align: center;
 }
 </style>
-</head>
-<body>
-
 
 <figure style="width: 250px" class="align-left">
   <a href="/assets/publications/e2cmfig.png" title="e2cmfig" alt="e2cmfig">
