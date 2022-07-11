@@ -6,7 +6,9 @@ author_profile: true
 <style>
 img {
   padding-right: 10px;
-  padding-bottom: 40px;
+  padding-left: 10px;
+  padding-bottom: 30px;
+  padding-top: 30px;
 }
 .box {
    display: flex;
