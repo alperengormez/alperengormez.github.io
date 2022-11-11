@@ -33,14 +33,14 @@ Naturally the peak time is the afternoon for me due to time zone difference, and
 We text throughout the day and the frequency increases towards afternoon. Tuesday is again the day with the least amount of texting.
 
 ### Dad
-<img src="https://alperengormez.github.io/assets/whatsapp_chat/dad_sunburst.png" alt="dad_sunburst" width="300"/> <img src="https://alperengormez.github.io/assets/whatsapp_chat/dad_wordcloud.png" alt="dad_wordcloud" height="400"/>
+<img src="https://alperengormez.github.io/assets/whatsapp_chat/dad_sunburst.png" alt="dad_sunburst" width="300"/> <img src="https://alperengormez.github.io/assets/whatsapp_chat/dad_weekday.png" alt="dad_weekday" width="300"/> <img src="https://alperengormez.github.io/assets/whatsapp_chat/dad_wordcloud.png" alt="dad_wordcloud" height="400"/>
 
 Daily pattern has two peaks. Weekly texting pattern is much different compared to the one with my mom.
 
 ### Girlfriend
 <img src="https://alperengormez.github.io/assets/whatsapp_chat/girlfriend_sunburst.png" alt="girlfriend_sunburst" width="300"/> <img src="https://alperengormez.github.io/assets/whatsapp_chat/girlfriend_month.png" alt="girlfriend_month" width="300"/>
 
-Hourly texting distribution is pretty much uniform. I was not in the U.S. during summer, so the frequency peaked there.
+Hourly texting distribution is pretty much uniform. I was not in the U.S. during last summer, so the frequency peaked there.
 
 ### Friend 1
 <img src="https://alperengormez.github.io/assets/whatsapp_chat/friend1_sunburst.png" alt="friend1_sunburst" width="300"/> <img src="https://alperengormez.github.io/assets/whatsapp_chat/friend1_month.png" alt="friend1_month" width="300"/>
