@@ -23,15 +23,15 @@ I added two functions for plotting the message counts per day and per month.
 Let's look at some plots now.
 
 ### Family group
-![family_sunburst]({{ site.url }}/assets/whatsapp_chat/family_sunburst.png) ![family_weeekday]({{ site.url }}/assets/whatsapp_chat/family_weeekday.png)
+<img src="family_sunburst.jpg" alt="family_sunburst" width="200"/> <img src="family_weekday.jpg" alt="family_weekday" width="200"/>
 Naturally the peak time is the afternoon for me due to time zone difference, and we text before I go to bed too. Except Tuesday, the distribution over days is pretty much uniform.
 
 ### Mom
-![mom_sunburst]({{ site.url }}/assets/whatsapp_chat/mom_sunburst.png) ![mom_weeekday]({{ site.url }}/assets/whatsapp_chat/mom_weeekday.png)
+![mom_sunburst]({{ site.url }}/assets/whatsapp_chat/mom_sunburst.png) ![mom_weekday]({{ site.url }}/assets/whatsapp_chat/mom_weekday.png)
 We text throughout the day and the frequency increases towards afternoon. Tuesday is again the day with the least amount of texting.
 
 ### Dad
-![dad_sunburst]({{ site.url }}/assets/whatsapp_chat/dad_sunburst.png) ![dad_weeekday]({{ site.url }}/assets/whatsapp_chat/dad_weeekday.png) ![dad_wordcloud]({{ site.url }}/assets/whatsapp_chat/dad_wordcloud.png)
+![dad_sunburst]({{ site.url }}/assets/whatsapp_chat/dad_sunburst.png) ![dad_weekday]({{ site.url }}/assets/whatsapp_chat/dad_weekday.png) ![dad_wordcloud]({{ site.url }}/assets/whatsapp_chat/dad_wordcloud.png)
 Daily pattern has two peaks. Weekly texting pattern is much different compared to the one with my mom.
 
 ### Girlfriend
@@ -43,7 +43,7 @@ Hourly texting distribution is pretty much uniform. I was not in the U.S. during
 10+ years of friendship. Interesting monthly plot. I really do not know the reason behind it.
 
 ### Friend 2
-![friend2_sunburst]({{ site.url }}/assets/whatsapp_chat/friend2_sunburst.png) ![friend2_weeekday]({{ site.url }}/assets/whatsapp_chat/friend2_weeekday.png) ![friend2_month]({{ site.url }}/assets/whatsapp_chat/friend2_month.png)
+![friend2_sunburst]({{ site.url }}/assets/whatsapp_chat/friend2_sunburst.png) ![friend2_weekday]({{ site.url }}/assets/whatsapp_chat/friend2_weekday.png) ![friend2_month]({{ site.url }}/assets/whatsapp_chat/friend2_month.png)
 High school friend. We talk a lot about football (soccer). The frequency peaks on Tuesday-Wednesday and in the weekend at ~2pm Chicago time because of the matches. Monthly frequency increases starting in January and peaks in June, overlapping the end of the football season.
 
 ### Friend 3
@@ -55,5 +55,5 @@ A friend in the U.S., apparent from the hourly plot.
 High school friends from Turkey. Irregular frequencies, both hourly and monthly.
 
 ### Friend group 2
-![friendgroup2_sunburst]({{ site.url }}/assets/whatsapp_chat/friendgroup2_sunburst.png) ![friendgroup2_weeekday]({{ site.url }}/assets/whatsapp_chat/friendgroup2_weeekday.png) ![friendgroup2_wordcloud]({{ site.url }}/assets/whatsapp_chat/friendgroup2_wordcloud.png)
+![friendgroup2_sunburst]({{ site.url }}/assets/whatsapp_chat/friendgroup2_sunburst.png) ![friendgroup2_weekday]({{ site.url }}/assets/whatsapp_chat/friendgroup2_weekday.png) ![friendgroup2_wordcloud]({{ site.url }}/assets/whatsapp_chat/friendgroup2_wordcloud.png)
 Friends in Chicago. Mostly weekend plans, and movie suggestions over the winter.
