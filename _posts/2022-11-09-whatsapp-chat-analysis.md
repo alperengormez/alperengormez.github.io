@@ -65,4 +65,4 @@ High school friends from Turkey. Irregular frequencies, both hourly and monthly.
 ### Friend group 2
 <img src="https://alperengormez.github.io/assets/whatsapp_chat/friendgroup2_sunburst.png" alt="friendgroup2_sunburst" width="300"/> <img src="https://alperengormez.github.io/assets/whatsapp_chat/friendgroup2_weekday.png" alt="friendgroup2_weekday" width="300"/> <img src="https://alperengormez.github.io/assets/whatsapp_chat/friendgroup2_wordcloud.png" alt="friendgroup2_wordcloud" height="400"/>
 
-Friends in Chicago. Mostly weekend plans, and movie suggestions over the winter.
+Friends in Chicago. Mostly weekend plans.
