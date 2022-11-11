@@ -23,7 +23,7 @@ I added two functions for plotting the message counts per day and per month.
 Let's look at some plots now.
 
 ### Family group
-<img src="family_sunburst.jpg" alt="family_sunburst" width="200"/> <img src="family_weekday.jpg" alt="family_weekday" width="200"/>
+<img src="family_sunburst.png" alt="family_sunburst" width="200"/> <img src="family_weekday.png" alt="family_weekday" width="200"/>
 Naturally the peak time is the afternoon for me due to time zone difference, and we text before I go to bed too. Except Tuesday, the distribution over days is pretty much uniform.
 
 ### Mom
