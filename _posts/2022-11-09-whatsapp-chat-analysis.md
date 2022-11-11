@@ -27,7 +27,7 @@ Let's look at some plots now.
 Naturally the peak time is the afternoon for me due to time zone difference, and we text before I go to bed too. Except Tuesday, the distribution over days is pretty much uniform.
 
 ### Mom
-![mom_sunburst]({{ site.url }}/assets/whatsapp_chat/mom_sunburst.png) ![mom_weekday]({{ site.url }}/assets/whatsapp_chat/mom_weekday.png)
+![mom_sunburst]({{ site.url }}/assets/whatsapp_chat/mom_sunburst.png =100x20) ![mom_weekday]({{ site.url }}/assets/whatsapp_chat/mom_weekday.png =100x20)
 We text throughout the day and the frequency increases towards afternoon. Tuesday is again the day with the least amount of texting.
 
 ### Dad
