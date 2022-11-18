@@ -28,5 +28,5 @@ img {
 
 <div class="box">
   <img style="vertical-align:middle; float: left" src="/assets/publications/ijcnnfig.png" alt="" width="250">
-  <span style=""><b>1. A. Görmez</b>, V. R. Dasari and E. Koyuncu, "E<sup>2</sup>CM: Early Exit via Class Means for Efficient Supervised and Unsupervised Learning," <em>2022 International Joint Conference on Neural Networks (IJCNN)</em>, 2022, pp. 1-8, doi: 10.1109/IJCNN55064.2022.9891952. <a href="https://doi.org/10.1109/IJCNN55064.2022.9891952">[Paper]</a> <a href="/assets/publications/ijcnn_poster.pdf">[Poster]</a> <a href="/publications">[Code: coming soon]</a></span>
+  <span style=""><b>1. A. Görmez</b>, V. R. Dasari and E. Koyuncu, "E<sup>2</sup>CM: Early Exit via Class Means for Efficient Supervised and Unsupervised Learning," <em>2022 International Joint Conference on Neural Networks (IJCNN)</em>, 2022, pp. 1-8, doi: 10.1109/IJCNN55064.2022.9891952. <a href="https://doi.org/10.1109/IJCNN55064.2022.9891952">[Paper]</a> <a href="/assets/publications/ijcnn_poster.pdf">[Poster]</a> <a href="https://github.com/alperengormez/class_means">[Code]</a></span>
 </div>
