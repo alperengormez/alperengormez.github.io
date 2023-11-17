@@ -20,7 +20,7 @@ Honestly, I do not know what I was thinking in the first 40 minutes. Running at 
 
 Pace and heart rate all over the place! The average of all the splits is marked by the black cross.
 
-After the disappointing result, I wanted to train again, and this time more properly. I got a chest strap heart rate monitor to ensure more accurate and timely heart rate measurements. I also wanted to run at an easier pace this time, around 140 bpm. For my first marathon, I was running at 156 bpm.
+After the disappointing result, I wanted to train again, and this time more properly. I got a chest strap heart rate monitor to ensure more accurate and timely heart rate measurements. I also wanted to run at an easier pace this time, around 140 bpm. For my first marathon, I was running at 156 bpm during the "easy" runs.
 
 I then signed up for the Madison Marathon on November 12. That meant I had 26 weeks to train. With most marathon training plans spanning 16 to 20 weeks, I had plenty of time. I found a marathon training plan online. After some mile-to-km conversions and rounding up the numbers, I ended up with a previous version of the table below. Although rarely, I had to skip runs or adjust the daily volume. After 26 weeks my training looked like this:
 
@@ -54,11 +54,11 @@ I then signed up for the Madison Marathon on November 12. That meant I had 26 we
 | 26                         |  11						|	-					|	-					|	6 e				|	-						|	-					|		5 shakeout		|	42 race 1 e		|
 
 Table legend:
-"e": Easy runs where I tried to keep my heart rate below 136.
-"Long": Typically longer than 20 km and heart rate below 145.
-"Tempo": Between 5:00-5:30/km pace.
-"Interval": Splits of 1 km, 1.25 km, 400 m with 1:1 run:rest.
-"Race": Race tempo, meaning 5:00/km pace.
+- "e": Easy runs where I tried to keep my heart rate below 136.
+- "Long": Typically longer than 20 km and heart rate below 145.
+- "Tempo": Between 5:00-5:30/km pace.
+- "Interval": Splits of 1 km, 1.25 km, 400 m with 1:1 run:rest.
+- "Race": Race tempo, meaning 5:00/km pace.
 
 ![Weekly training volume]({{ site.url }}/assets/marathon_hr_training/weeklybar.png)
 
@@ -72,11 +72,11 @@ And finally, here is how the 1773 km look like with respect to pace and heart ra
 
 ![Training data until marathon # 2]({{ site.url }}/assets/marathon_hr_training/training.png)
 
-Half marathon #2 represents the half marathon race I completed in Seattle. I ran it in 1 hour and 44 minutes, setting a new PB by one minute despite a very hilly course (358m elevation gain). I placed third in my age group and earned myself a commemorative award. The improvement compared to the first marathon is strikingly evident. It becomes even more evident with the graph below:
+Half Marathon #2 represents the half marathon race I completed in Seattle. I ran it in 1 hour and 44 minutes, setting a new PB by one minute despite a very hilly course (358 m elevation gain). I placed third in my age group and earned myself a commemorative award. The improvement compared to the first marathon is strikingly evident. It becomes even more evident with the graph below:
 
 ![Marathon # 2 splits]({{ site.url }}/assets/marathon_hr_training/marathon2.png)
 
-I finished my second marathon in 3 hours and 25 minutes with an average pace of 4:50/km and average heart rate of 174 bpm. Compared to half marathon #2, there is a 0:10/km pace and 10 bpm heart rate improvement despite being twice as long. Seeing this improvement, and the stark difference in the graphs below (top: #2, bottom: #1) motivates me to run more.
+I finished my second marathon in 3 hours and 25 minutes with an average pace of 4:50/km and average heart rate of 174 bpm. Compared to Half Marathon #2, there is a 0:10/km pace and 10 bpm heart rate improvement despite being twice as long. Seeing this improvement, and the stark difference in the graphs below (top: #2, bottom: #1) motivates me to run more.
 
 ![Marathon #2 heart rate and pace data]({{ site.url }}/assets/marathon_hr_training/marathon2hrpace.png)
 ![Marathon #1 heart rate and pace data]({{ site.url }}/assets/marathon_hr_training/marathon1hrpace.png)
