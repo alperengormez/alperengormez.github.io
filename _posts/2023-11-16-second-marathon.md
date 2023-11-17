@@ -8,7 +8,7 @@ tags:
   - run
 ---
 
-In this post, I will talk about my preparation for my second marathon and share some visual data on the results of heart rate training.
+In this post, I will talk about my preparation for my second marathon and share some data on my training.
 
 I ran my first marathon in May 2023 with a time of 4 hours and 56 minutes. Finishing a marathon is not a simple feat, but still I felt upset with the outcome. I think I was too ambitious about my goal of 3 hours and 30 minutes, and too optimistic about my fitness level back then. Leading up to the race, my weekly training volume was only 40-50 km spread across three runs. During the first hour of the race I realized it was not enough at all. Here is how my heart rate and pace looked like during the race:
 
