@@ -14,7 +14,7 @@ I ran my first marathon in May 2023 with a time of 4 hours and 56 minutes. Finis
 
 ![Marathon #1 heart rate and pace data]({{ site.url }}/assets/marathon_hr_training/marathon1hrpace.png)
 
-Honestly, I do not know what I was thinking in the first 40 minutes. Running at a 5:00/km pace would be enough to achieve a 3 hours 30 minutes finish time. When I realized I had not trained enough, it was too late and slowing down (having to slow down) and taking walk breaks only prolonged the agony. Here is a breakdown of each kilometer split in relation to my heart rate. The measurements were taken by my Garmin watch.
+Honestly, I do not know what I was thinking in the first 40 minutes. Running at a 5:00/km pace would be enough to achieve a 3 hours 30 minutes finish time. When I realized I had not trained enough, it was too late and slowing down (having to slow down) and taking walk breaks only prolonged the agony. Here is a breakdown of each kilometer split in relation to my heart rate, the measurements were taken by my Garmin watch:
 
 ![Marathon #1 splits]({{ site.url }}/assets/marathon_hr_training/marathon1.png)
 
@@ -72,11 +72,11 @@ And finally, here is how the 1773 km look like with respect to pace and heart ra
 
 ![Training data until marathon # 2]({{ site.url }}/assets/marathon_hr_training/training.png)
 
-Half Marathon #2 represents the half marathon race I completed in Seattle. I ran it in 1 hour and 44 minutes, setting a new PB by one minute despite a very hilly course (358 m elevation gain). I placed third in my age group and earned myself a commemorative award. The improvement compared to the first marathon is strikingly evident. It becomes even more evident with the graph below:
+Half Marathon #2 represents the half marathon race I completed in Seattle in the fourth week of training. I ran it in 1 hour and 44 minutes, setting a new PB by one minute despite a very hilly course (358 m elevation gain). I placed third in my age group and earned myself a commemorative award. The improvement compared to the first marathon is strikingly evident: The splits are closely grouped together. It becomes even more evident with the graph below:
 
 ![Marathon # 2 splits]({{ site.url }}/assets/marathon_hr_training/marathon2.png)
 
-I finished my second marathon in 3 hours and 25 minutes with an average pace of 4:50/km and average heart rate of 174 bpm. Compared to Half Marathon #2, there is a 0:10/km pace and 10 bpm heart rate improvement despite being twice as long. Seeing this improvement, and the stark difference in the graphs below (top: #2, bottom: #1) motivates me to run more.
+I finished my second marathon in 3 hours and 25 minutes with an average pace of 4:52/km and average heart rate of 174 bpm. Compared to Half Marathon #2, there is a 0:10/km pace and 10 bpm heart rate improvement despite the distance being twice as long. Seeing this improvement, and the stark difference in the graphs below (top: #2, bottom: #1) motivates me to run more.
 
 ![Marathon #2 heart rate and pace data]({{ site.url }}/assets/marathon_hr_training/marathon2hrpace.png)
 ![Marathon #1 heart rate and pace data]({{ site.url }}/assets/marathon_hr_training/marathon1hrpace.png)
@@ -85,6 +85,7 @@ Here is what I am planning to do after taking a 2-3 weeks of rest:
 - I will ramp up my weekly volume gradually and reach 80 km per week.
 - I will do my easy runs at an even easier pace, around 127 bpms.
 - I will see how having 1 interval and 1 tempo sessions each week affects my body.
+- I will work on maintaining a steady effort for longer time. This will make the gaps between my splits smaller during the race.
 - I will aim for a marathon in Fall 2024 with 2 hours 55 minutes finishing time.
 - In the meantime, I will do some strength workouts.
 
