@@ -15,15 +15,14 @@ img {
 }
 </style>
 
+<div class="box">
+  <img style="vertical-align:middle; float: left" src="/assets/publications/cbt_spl_fig2.png" alt="" width="250">
+  <span style=""><b>4. A. Görmez</b> and E. Koyuncu, "Class Based Thresholding in Early Exit Semantic Segmentation Networks," in \textit{IEEE Signal Processing Letters}, vol. 31, pp. 1184-1188, 2024. <a href="http://doi.org/10.1109/LSP.2024.3386110">[Paper]</a> <a href="/publications">[Code: coming soon]</a></span>
+</div>
  
 <div class="box">
   <img style="vertical-align:middle; float: left" src="/assets/publications/icmlllw.png" alt="" width="250">
-  <span style=""><b>4. A. Görmez</b> and E. Koyuncu, "Dataset Pruning Using Early Exit Networks," <em>ICML Workshop on Localized Learning (LLW)</em>, 2023. <a href="https://openreview.net/forum?id=Kh114370zL">[Paper]</a> <a href="/assets/publications/icml_llw_poster.pdf">[Poster]</a> <a href="/publications">[Code: coming soon]</a></span>
-</div>
-
-<div class="box">
-  <img style="vertical-align:middle; float: left" src="/assets/publications/cbtfig1.svg" alt="" width="250">
-  <span style=""><b>3. A. Görmez</b> and E. Koyuncu, "Class Based Thresholding in Early Exit Semantic Segmentation Networks," arXiv:2210.15621 [cs.CV], 2022, doi: 10.48550/arXiv.2210.15621. <a href="https://arxiv.org/abs/2210.15621">[Paper]</a> <a href="/publications">[Code: coming soon]</a></span>
+  <span style=""><b>3. A. Görmez</b> and E. Koyuncu, "Dataset Pruning Using Early Exit Networks," <em>ICML Workshop on Localized Learning (LLW)</em>, 2023. <a href="https://openreview.net/forum?id=Kh114370zL">[Paper]</a> <a href="/assets/publications/icml_llw_poster.pdf">[Poster]</a> <a href="/publications">[Code: coming soon]</a></span>
 </div>
 
 <div class="box">
