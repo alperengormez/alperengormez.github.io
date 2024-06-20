@@ -16,6 +16,11 @@ img {
 </style>
 
 <div class="box">
+  <img style="vertical-align:middle; float: left" src="/assets/publications/eellm.png" alt="" width="250">
+  <span style=""><b>5. A. Görmez</b> and E. Koyuncu, "Class-aware Initialization of Early Exits for Pre-training Large Language Models," in <em>2nd Workshop on Advancing Neural Network Training: Computational Efficiency, Scalability, and Resource Optimization (WANT@ICML 2024), 2024. <a href="https://openreview.net/forum?id=XUgM4M4Aua">[Paper]</a> <a href="/publications">[Code: coming soon]</a></span>
+</div>
+
+<div class="box">
   <img style="vertical-align:middle; float: left" src="/assets/publications/cbt_spl_fig2.png" alt="" width="250">
   <span style=""><b>4. A. Görmez</b> and E. Koyuncu, "Class Based Thresholding in Early Exit Semantic Segmentation Networks," in <em>IEEE Signal Processing Letters</em>, vol. 31, pp. 1184-1188, 2024. <a href="http://doi.org/10.1109/LSP.2024.3386110">[Paper]</a> <a href="/publications">[Code: coming soon]</a></span>
 </div>
