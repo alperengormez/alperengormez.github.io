@@ -13,13 +13,13 @@ In this post, I will share what I learned from Prof. Cahit Arf’s talk titled [
 
 Prof. Arf was one of the best, if not the best, Turkish mathematics professors. He is known for the Arf invariant, Arf rings, the Hasse-Arf theorem and Arf semigroups. Sadly, my current knowledge of these topics does not go beyond having skimmed the Wikipedia pages, but we will get back to this later. You can refer to [Prof. Sertöz's paper](http://arxiv.org/pdf/1301.3699) to read about Prof. Arf's scientific biography. Prof. Arf also appears on the back of the 10 Turkish Lira note.
 
-Prof. Arf's talk is particularly interesting because it was given in 1959. Let me frame this historically. The concept of neural networks dates back to 1943, where [McCulloch & Pitts](https://www.cs.cmu.edu/~./epxing/Class/10715/reading/McCulloch.and.Pitts.pdf) modeled neurons using electrical circuits. Then, there is [Hebbian learning](https://pure.mpg.de/rest/items/item_2346268_3/component/file_2346267/content) in 1949, which can be summarized as “Neurons wire together if they fire together.” Rosenblatt published the [perceptron](https://dx.doi.org/10.1037/h0042519) learning rule in 1958. Widrow & Hoff invented the [delta learning rule](https://apps.dtic.mil/sti/tr/pdf/AD0241531.pdf) in 1959. [Linnainmaa’s](https://scholar.googleusercontent.com/scholar.bib?q=info:wRjDZKQ_NKYJ:scholar.google.com/&output=citation&scisdr=ClHSp4FHEJWet6nTcS0:AFWwaeYAAAAAZwrVaS2EHx36UPj1s918yDY85yg&scisig=AFWwaeYAAAAAZwrVaX35QZrtI1imHb5ggR1QnYU&scisf=4&ct=citation&cd=-1&hl=en) and [Rumelhart’s](https://stanford.edu/~jlmcc/papers/PDP/Volume\%201/Chap8_PDP86.pdf) backpropagation works came out in 1970 and 1985 respectively. So, 1959 is early days for neural networks. I didn't know that a Turkish mathematician was interested in this area, let alone giving a talk on it back then.
+Prof. Arf's talk is particularly interesting because it was given in 1959. Let me frame this historically. The concept of neural networks dates back to 1943, where [McCulloch & Pitts](https://www.cs.cmu.edu/~./epxing/Class/10715/reading/McCulloch.and.Pitts.pdf) modeled neurons using electrical circuits. Then, there is [Hebbian learning](https://pure.mpg.de/rest/items/item_2346268_3/component/file_2346267/content) in 1949, which can be summarized as “Neurons wire together if they fire together.” Rosenblatt published the [perceptron learning rule](https://dx.doi.org/10.1037/h0042519) in 1958. Widrow & Hoff invented the [delta learning rule](https://apps.dtic.mil/sti/tr/pdf/AD0241531.pdf) in 1959. Linnainmaa’s and [Rumelhart’s](https://stanford.edu/~jlmcc/papers/PDP/Volume\%201/Chap8_PDP86.pdf) backpropagation works came out in 1970 and 1985 respectively. So, 1959 is early days for neural networks. I didn't know that a Turkish mathematician was interested in this area, let alone giving a talk on it back then.
 
 The other interesting thing about this talk is its purpose. This talk was part of a series where the goal was to teach basic scientific concepts to the public and to promote university studies. Following Atatürk’s principles on science and education, this series was a great initiative on educating the public. Nevertheless, trying to explain how machines *can* think to the public in 1959 sounds pretty difficult to me. Note that there is no Internet, no email. Even now, whether machines can think or not is a good topic of debate. Yet, as you read, you see how Prof. Arf explains like you are 5, and everything becomes crystal clear.
 
 Now, the talk itself.
 
-### Machines can think
+# Machines can think
 
 Prof. Arf defines thinking as “giving different reactions to different observations, in your own language.” So, an alarm clock thinks too in this context, because we say -in its own language- “Wake me up at 4am,” and it replies in its own language by beeping. In the same way, you tell the phone who you would like to speak to -in its own language- and it says “Ringing” or “Not available” by beeping in a certain way.
 
@@ -31,7 +31,7 @@ Instead, I would like to take a look at how people solve problems. We put togeth
 
 To conclude this section, I should say once more that I agree with Prof. Arf. By looking at the most recent LLMs, we now know that machines can think, or at least mimic human thinking. But still, it all depends on the definition. Moreover, does it really matter? As Edsger Dijkstra said, "The question of whether a computer can think is no more interesting than the question of whether a submarine can swim." On a related note, you might find John Searle's [Chinese room](https://en.wikipedia.org/wiki/Chinese_room) argument interesting.
 
-### Difficult problems
+# Difficult problems
 
 What struck me the most in this talk is how Prof. Arf approaches seemingly difficult problems.
 
@@ -42,6 +42,5 @@ Prof. Arf put it simply: Anything someone can do, someone else can do better (he
 Maybe I should spend more time on the Arf invariant and write an article on it. No rush though.
 
 ###### Acknowledgments
-Thanks to Onuralp Görmez for reading the draft and providing valuable suggestions for improving the text.
-
-Last edited: Oct 12, 2024.
+<small>Thanks to Onuralp Görmez for reading the draft and providing valuable suggestions for improving the text.\
+Last edited: Oct 12, 2024.</small>
