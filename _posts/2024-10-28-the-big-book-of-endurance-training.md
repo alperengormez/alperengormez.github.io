@@ -62,7 +62,7 @@ Finally, the book's credibility could have been stronger if there were at least 
 
 # My Verdict
 
-Keeping the majority of the training in low intensity makes sense, but one needs more high intensity training than Maffetone suggests. The MAF formula is unsatisfactory.
+Keeping the majority of the training in low intensity makes sense, but one needs more high intensity training than Maffetone suggests. The MAF formula is unsatisfactory. Personally, I do 85% of my runs at an easy pace, keeping my heart rate between 115-130 bpm and my pace around 6:30-7:45 min/km. This allowed me to reach a peak weekly volume of 160 km while doing two high intensity workouts each week.
 
 As with everything in life, practice is what leads to perfection. Want to improve at something? Nail the basics and keep doing more of it gradually, and consistently.
 
