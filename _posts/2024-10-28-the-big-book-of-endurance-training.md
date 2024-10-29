@@ -15,6 +15,7 @@ It is informative, thick (500+ pages), and literally a big book dimension-wise. 
 # Key Takeaways
 
 1. **Train Your Aerobic System**
+
 Our body has two ways of producing energy.
 
 The aerobic system allows us to sustain a low intensity effort for a long duration by burning fat and carbohydrates with oxygen. It has high capacity, but produces energy at a slower rate. On the other hand, the anaerobic system breaks carbohydrates down to lactic acid when there is not enough oxygen. It has lower capacity, but produces energy at a faster rate.
@@ -22,22 +23,27 @@ The aerobic system allows us to sustain a low intensity effort for a long durati
 All endurance sports require a solid aerobic system. In order to train the aerobic system, one has to keep the majority of their training in low intensity. As the aerobic system improves, the body becomes more efficient in using the produced energy.
 
 2. **Monitor Heart Rate**
+
 The ultimate goal of endurance training is lowering the heart rate. By doing so, one can gradually go faster with the same heart rate.
 
 Monitoring the heart rate is important because it keeps you in check during training. It provides numeric, objective data so you immediately know whether you are spending more effort than you should. Monitoring is important also because things improve only if you measure and monitor them. Logging, visualizing and comparing training data are things one should periodically do.
 
 3. **Training = Work + Rest**
+
 Training makes the body work, adapt to gradually increasing stress, and become more efficient. However, one cannot keep training more endlessly to get better. The body needs to recover and replenish. Rest days are necessary.
 
 4. **Listen to Your Body**
+
 Even with a proper number of rest days, sickness or simply feeling too tired can be inevitable. It is easy to get carried away and still do the workout in these situations, but it causes more harm than good. It can lead to injury, extended recovery time and even burnout. Listening to the body and adapting the training program accordingly is quite essential.
 
 5. **Eat \& Sleep Well**
+
 It is no secret that eating well is key for good health. I try to keep it simple and stick to the basics: steamed vegetables, fruits, whole grains, protein and water, three times a day. No refined carbohydrates. I found [Harvard Healthy Eating Plate](https://nutritionsource.hsph.harvard.edu/healthy-eating-plate/) particularly useful on what to eat. When eating well becomes challenging, I remind myself of the famous computer science expression: "Garbage in, garbage out."
 
 It is also well-known that sleep is when the body renews itself. Make a deliberate effort to protect your sleep time. Herbert Spencer, who coined the phrase "survival of the fittest" put it really well: "If you wish to be a success in this life you must first be a good animal."
 
 6. **The Body is a Chain**
+
 Probably the most overlooked fact about our body is that it is a chain. An issue in one area can impact another. That's why [Barcelona coach Hansi Flick ordered dental exams for his players](https://www.barcablaugranes.com/2024/7/12/24197138/hansi-flick-orders-dental-exams-for-all-barcelona-players). Dental issues affect nutrition, which affect muscle strength in turn.
 
 The interconnectedness of the body becomes especially important in endurance training because the movements are repeated countless times. Even a slightest irregularity in your step may lead to issues in the knees or hips. Therefore, in the case of an injury, one should treat the root problem, not the immediately visible symptom.
