@@ -42,5 +42,5 @@ Prof. Arf put it simply: Anything someone can do, someone else can do better (he
 Maybe I should spend more time on the Arf invariant and write an article on it. No rush though.
 
 ###### Acknowledgments
-<small>Thanks to Onuralp Görmez for reading the draft and providing valuable suggestions for improving the text.<br>
+<small>Thanks to Onuralp Görmez and Arsen Berk Tekdaş for reading the draft and providing valuable suggestions for improving the text.<br>
 Last edited: Oct 12, 2024.</small>
