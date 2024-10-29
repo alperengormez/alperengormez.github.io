@@ -36,7 +36,7 @@ Training makes the body work, adapt to gradually increasing stress, and become m
 
 Even with a proper number of rest days, sickness or simply feeling too tired can be inevitable. It is easy to get carried away and still do the workout in these situations, but it causes more harm than good. It can lead to injury, extended recovery time and even burnout. Listening to the body and adapting the training program accordingly is quite essential.
 
-### 5. Eat \& Sleep Well
+### 5. Eat & Sleep Well
 
 It is no secret that eating well is key for good health. I try to keep it simple and stick to the basics: steamed vegetables, fruits, whole grains, protein and water, three times a day. No refined carbohydrates. I found [Harvard Healthy Eating Plate](https://nutritionsource.hsph.harvard.edu/healthy-eating-plate/) particularly useful on what to eat. When eating well becomes challenging, I remind myself of the famous computer science expression: "Garbage in, garbage out."
 
@@ -50,11 +50,11 @@ The interconnectedness of the body becomes especially important in endurance tra
 
 # My Disagreements
 
-Before Maffetone, people used a heart rate formula based on their age. According to this formula, 220 minus one's age would give their maximum heart rate, and one would train at 65-75\% of it. Obviously this formula is not good because it is not personalized. People have different genetics and physical conditions, therefore their heart rate ranges may vary significantly.
+Before Maffetone, people used a heart rate formula based on their age. According to this formula, 220 minus one's age would give their maximum heart rate, and one would train at 65-75% of it. Obviously this formula is not good because it is not personalized. People have different genetics and physical conditions, therefore their heart rate ranges may vary significantly.
 
 Maffetone came up with a new formula. 180 minus age and an adjustment would give the Maximum Aerobic Function (MAF) heart rate, which is the most novel point of the book. Maffetone suggests training below the MAF heart rate, with only little amount of higher intensity training. The adjustment in the formula depends on various conditions. For example, if you are recovering from a major illness or are over 65 years old, you subtract 10. If it is a simple flu, you subtract 5. If you have been running for more than two years without any problem, you add 5. While this is more personalized than the 220 method, it still does not account for different genetics and physical conditions.
 
-One glaring fact about the Maffetone method and the book is that they are not modern anymore. In the preface, Mark Allen talks about how effective the Maffetone method was for him. He could not win the Ironman World Championship in his first six attempts but won 1989-1993 \& 1995 after he adopted Maffetone's method. However, he competed in the 1990s, thirty years ago. If we look at the list of men who won the Ironman World Championship, we see that Australians and Germans dominated after Mark Allen. Most recently the Norwegian method has proven to be effective, where they emphasize high intensity training. Clearly today's winners are not relying on the Maffetone method.
+One glaring fact about the Maffetone method and the book is that they are not modern anymore. In the preface, Mark Allen talks about how effective the Maffetone method was for him. He could not win the Ironman World Championship in his first six attempts but won 1989-1993 & 1995 after he adopted Maffetone's method. However, he competed in the 1990s, thirty years ago. If we look at the list of men who won the Ironman World Championship, we see that Australians and Germans dominated after Mark Allen. Most recently the Norwegian method has proven to be effective, where they emphasize high intensity training. Clearly today's winners are not relying on the Maffetone method.
 
 Maybe another unsettling thing is that although Maffetone has a B.S. in human biology and certifications in physiotherapy, he is not a medical doctor. He holds a Doctor of Chiropractor degree in chiropractic, and endorses Chinese medicine. Let's get this straight: Chiropractic and Chinese medicine are not scientific at all. Moreover, he has controversial statements on COVID-19. Health is the single most important thing in a person's life, and this background is not something that puts my mind at ease. 
 
