@@ -20,7 +20,7 @@ This post assumes you know the basics of deep learning. If you are not familiar 
 # Problem
 Let's look at two figures. On the left, we see how number of parameters in neural networks evolved over time. Models got larger and larger because more parameters generally meant better performance on a given task. However, more parameters also mean that models perform more calculations, consuming more energy during inference.
 
-<img src="https://alperengormez.github.io//assets/phd/problem.jpeg" width="550" height="300">
+<img src="https://alperengormez.github.io//assets/phd/problem.JPG" width="550" height="300">
 
 On the right, we see the same exponentially increasing trend for the training set sizes. Larger models are trained on larger datasets for the same reason of better performance, but this leads to a rise in training costs.
 
@@ -32,21 +32,21 @@ Traditional neural networks are tunnel-like. In other words, there is one entry 
 
 However, we know the data in real world is heterogeneous. There are some easy-to-classify samples and some difficult-to-classify samples. For instance, consider the two cases below. It seems sub-optimal that the network performs the same amount of computation for both images (both are cat).
 
-<img src="https://alperengormez.github.io//assets/phd/cats.jpeg" width="550" height="300">
+<img src="https://alperengormez.github.io//assets/phd/cats.JPG" width="550" height="300">
 
 Ideally, we want easy samples to be processed less. The computation should be terminated earlier. The sample should exit early from the network. By doing so, we will save some amount of compute because the subsequent layers will not be executed.
 
-<img src="https://alperengormez.github.io//assets/phd/easy.jpeg" width="550" height="300">
+<img src="https://alperengormez.github.io//assets/phd/easy.JPG" width="550" height="300">
 
 On the other hand, when the input is difficult, it is likely that the input will be classified *confidently* at the early exit. Therefore, the sample should continue its flow through the network, and it should utilize the full amount of computation.
 
-<img src="https://alperengormez.github.io//assets/phd/difficult.jpeg" width="550" height="300">
+<img src="https://alperengormez.github.io//assets/phd/difficult.JPG" width="550" height="300">
 
 These are the underlying ideas behind early exit networks. My research uses early exit networks to reduce inference & training costs. Now, let's explore my thesis contributions in detail.
 # E$^2$CM: Early Exit via Class Means for Efficient Supervised and Unsupervised Learning
 Early exit networks reduce the amount of computation by allowing easy samples to exit early. But to do this, an early exit layer has to be attached to an off-the-shelf, already trained backbone network. This modifies the overall network architecture, which might not be desirable. Secondly, the early exit layer has to be trained to perform well. It will be useful only then. Also, the attachment of the early exit layer implies the necessity of hyper-parameter tuning. We should answer questions like how big the early exit layer should be, where it should be placed, and how many there should be.
 
-<img src="https://alperengormez.github.io//assets/phd/ee.jpeg" width="550" height="300">
+<img src="https://alperengormez.github.io//assets/phd/ee.JPG" width="550" height="300">
 
 Ideally, we want to perform early exiting without modifying the backbone architecture, without further training, and without hyper-parameter tuning. Now, let's look at an example that will lead us to E$^2$CM, a simple and lightweight early exit algorithm that achieves our purposes.
 
@@ -54,23 +54,23 @@ Suppose we are doing image classification with 3 classes: cat, dog and bird. Our
 
 When we input a cat image, the model’s output vector will have its first value as the largest, because the model correctly identifies it as a cat. Similarly, for a dog image, the second value will be the largest, and for a bird image, the third value will be the largest. To make this easier to visualize, let’s use color-coding. We’ll assign red to "cat," green to "dog," and blue to "bird." The more a vector is tinted red, the more likely the model thinks it’s a cat. The same logic applies for the other classes.
 
-<img src="https://alperengormez.github.io//assets/phd/e2cm_avg.jpeg" width="550" height="300">
+<img src="https://alperengormez.github.io//assets/phd/e2cm_avg.JPG" width="550" height="300">
 
 Now, suppose we input every training image that belongs to a particular class, and calculate the average of model outputs. This average vector will again look red, green and blue respectively for our 3 classes, because the model has seen these training images and can confidently classify them.
 
 Here is where it gets interesting: When we average the layer outputs for each class at earlier layers, we still see faint shades of red, blue and green (note that the layer outputs here have larger sizes, i.e. they do not have 3 elements, but much more). This suggests that earlier layers can still extract some useful features which can be used to classify the input at that point of the network. If so, why do not we use these class mean vectors for early exiting?
 
-<img src="https://alperengormez.github.io//assets/phd/e2cm_cm.jpeg" width="550" height="300">
+<img src="https://alperengormez.github.io//assets/phd/e2cm_cm.JPG" width="550" height="300">
 
 We propose doing the following. At inference time, the input passes through layer-1. We calculate the Euclidean distance between the layer-1 output, and the corresponding class mean vectors. We convert the distances to probabilities by taking the softmax over negative distances. This ensures that a larger distance means a lower likelihood of belonging to that class. Finally, we check if the maximum element of the softmax vector is greater than a pre-defined threshold. If so, it means layer-1 output for the test image is close enough to a class mean, it probably belongs to the corresponding class, and it can exit early. Otherwise, the computation should continue. This is the E$^2$CM algorithm.
 
 We compare E$^2$CM against some other early exiting methods under a fixed training time budget of one epoch, as E$^2$CM requires only one forward pass and it does not require gradient based training. This makes E$^2$CM particularly suitable to resource constrained settings. As we see from the figures, E$^2$CM outperforms the others.
 
-<img src="https://alperengormez.github.io//assets/phd/e2cm_r1.jpeg" width="550" height="300">
+<img src="https://alperengormez.github.io//assets/phd/e2cm_r1.JPG" width="550" height="300">
 
 Another good thing about E$^2$CM is that it can be applied to unsupervised learning tasks too. Suppose we are doing deep embedding clustering, which means we are clustering not the raw data, but the embeddings produced by the neural network. At inference time, the embedding of a sample is compared against the cluster centroids at the end of the network. But if the embedding is close enough to an earlier cluster centroid, do we need to execute the subsequent layers? E$^2$CM says no! It can reduce the computational cost by up to 60% with negligible performance drop.
 
-<img src="https://alperengormez.github.io//assets/phd/e2cm_r2.jpeg" width="550" height="300">
+<img src="https://alperengormez.github.io//assets/phd/e2cm_r2.JPG" width="550" height="300">
 
 To sum up, E$^2$CM is a simple, lightweight early exit algorithm that reduces the inference cost for low resource settings. It does not modify the backbone model, it does not need any training, and there is no hyper-parameter tuning required.
 # Pruning Early Exit Networks
@@ -86,15 +86,15 @@ We compared two approaches:
 
 Now, let's look at the sparsity rates across the layers of an early exit network. We have 7 exits in total, where each exit is a single linear layer.
 
-<img src="https://alperengormez.github.io//assets/phd/pruning.jpeg" width="550" height="300">
+<img src="https://alperengormez.github.io//assets/phd/pruning.JPG" width="550" height="300">
 
 For clearer comparison, let's look at Approach-1 minus Approach-2.
 
-<img src="https://alperengormez.github.io//assets/phd/pruning_minus.jpeg" width="550" height="300">
+<img src="https://alperengormez.github.io//assets/phd/pruning_minus.JPG" width="550" height="300">
 
 As we see, Approach-2 prunes the linear layer weights more, which leads to sparser exit weights. As a result, exit performances are worse for Approach-2. So, the key takeaway from this work is that for the best overall exit performance, it is best to treat all weights the same.
 
-<img src="https://alperengormez.github.io//assets/phd/pruning_result.jpeg" width="550" height="300">
+<img src="https://alperengormez.github.io//assets/phd/pruning_result.JPG" width="550" height="300">
 # Class Based Thresholding in Early Exit Semantic Segmentation Networks
 We designed a new algorithm called CBT, which further reduces the inference cost of early exit semantic segmentation networks. In semantic segmentation, the goal is to classify each pixel in an input image into a set of classes.
 
@@ -102,7 +102,7 @@ In order to reduce the inference cost, researchers have added an early exit laye
 
 We make the following observation: Not all classes have the same classification difficulty, therefore using the same threshold value for all classes is sub-optimal. For example, compare the road and human classes shown below. Inherently, they have different difficulties of being predicted correctly because of their perceived size, location and neighborhood pixels. Also recall the heterogeneous real world data hypothesis from E$^2$CM. It makes sense to use different threshold values for different classes. This is what CBT does.
 
-<img src="https://alperengormez.github.io//assets/phd/cbt_observation.jpeg" width="550" height="300">
+<img src="https://alperengormez.github.io//assets/phd/cbt_observation.JPG" width="550" height="300">
 
 Here is how CBT works:
 * Suppose we have $N$ exits and $K$ classes.
@@ -114,15 +114,15 @@ Here is how CBT works:
 
 The overview of CBT is shown below. Notice how the exit outputs are split into channels, each channel is compared to its own threshold, and the resulting masks are merged before being incorporated to the backbone computation flow. By assigning different threshold values to different classes, CBT allows computation to stop even earlier for easy pixels. This further reduces the inference cost.
 
-<img src="https://alperengormez.github.io//assets/phd/cbt.jpeg" width="550" height="300">
+<img src="https://alperengormez.github.io//assets/phd/cbt.JPG" width="550" height="300">
 
 Now, let's look at the results. We compared CBT against ADP-C, which uses the same threshold value of 0.998 for all classes in the Cityscapes dataset. For CBT, the thresholds are between 0.9 and 0.998. As shown, CBT can reduce the amount of compute by up to 23%.
 
-<img src="https://alperengormez.github.io//assets/phd/cbt_result.jpeg" width="550" height="300">
+<img src="https://alperengormez.github.io//assets/phd/cbt_result.JPG" width="550" height="300">
 
 Finally, I would like to show you which classes received lower thresholds and which ones received higher thresholds. For Cityscapes, the road class has the lowest threshold, which means it is the easiest class among all. On the other hand, the train class has the highest threshold. The exact order might not be 100% correct, but the general trend is logical: Simpler classes such as road and sky have lower thresholds. On the more challenging ADE20K dataset, most classes have high thresholds, which makes sense given the dataset’s greater complexity compared to Cityscapes.
 
-<img src="https://alperengormez.github.io//assets/phd/cbt_thresholds.jpeg" width="550" height="300">
+<img src="https://alperengormez.github.io//assets/phd/cbt_thresholds.JPG" width="550" height="300">
 # Dataset Pruning Using Early Exit Networks
 Up to this point, I have discussed my works on reducing inference costs. Now, let's shift our focus to reducing training costs. I will introduce a novel dataset pruning algorithm called EEPrune.
 
@@ -137,27 +137,27 @@ As I stated above, in some sense, early exit networks can detect easy samples. W
 
 When we look at which samples are pruned on a toy, easy-to-visualize dataset, we see that EEPrune discards the samples that are furthest away from the decision boundaries. This indicates that those samples are less important for the training, which makes sense.
 
-<img src="https://alperengormez.github.io//assets/phd/eeperune_vis.jpeg" width="550" height="300">
+<img src="https://alperengormez.github.io//assets/phd/eeperune_vis.JPG" width="550" height="300">
 
 Now, let's see the results. As demonstrated, EEPrune beats random pruning as well as other more sophisticated pruning methods. For more detailed figures and insights, you might want to take a look at the [thesis](https://alperengormez.github.io//assets/phd/agormez_phd_thesis.pdf).
 
-<img src="https://alperengormez.github.io//assets/phd/eeperune_result.jpeg" width="550" height="300">
+<img src="https://alperengormez.github.io//assets/phd/eeperune_result.JPG" width="550" height="300">
 
 EEPrune also consumes less power compared to the other methods because it requires only a few epochs of training. This does not contradict the main objective of reducing the training costs, unlike other methods.
 
-<img src="https://alperengormez.github.io//assets/phd/eeperune_power.jpeg" width="550" height="300">
+<img src="https://alperengormez.github.io//assets/phd/eeperune_power.JPG" width="550" height="300">
 
 We validate the effectiveness of EEPrune as follows. Suppose we are doing 50% pruning. We have identified which samples are redundant. They are in $D_p$. Normally, we train the model on $D_{tr}  \setminus D_p$, right? And it performs well on the test set. What if we train it on $D_p$? $D_p$ have the redundant, uninformative samples, so the test set performance should be lower. And indeed this is the case.
 
-<img src="https://alperengormez.github.io//assets/phd/eeperune_dp_.jpeg" width="550" height="300">
+<img src="https://alperengormez.github.io//assets/phd/eeperune_dp_.JPG" width="550" height="300">
 
 We also examine the effect of the exit location. Across all pruning ratios, our findings indicate that placing the exit too early or too deep in the network hurt the performance. So, as everything else in life, there must be a balance.
 
-<img src="https://alperengormez.github.io//assets/phd/eeperune_exitloc.jpeg" width="550" height="300">
+<img src="https://alperengormez.github.io//assets/phd/eeperune_exitloc.JPG" width="550" height="300">
 
 Finally, I want to show you a visually appealing figure that displays heatmaps of different dataset pruning methods. These heatmaps illustrate how many samples each method discards from each class. As you can see, each pruning method behaves differently and causes a different level of class imbalance in the remaining set. Random pruning, the second column from the left in each heatmap, appears the most uniform, as expected. On the other hand, some methods cause a significant class imbalance, which explains their poor performance.
 
-<img src="https://alperengormez.github.io//assets/phd/eeperune_heatmap.jpeg" width="550" height="300">
+<img src="https://alperengormez.github.io//assets/phd/eeperune_heatmap.JPG" width="550" height="300">
 # Class-aware Initialization of Early Exits for Pre-training Large Language Models
 My final contribution is a weight initialization technique for accelerating the pre-training of early exit large language models (LLMs).
 
@@ -167,7 +167,7 @@ For context, let's study how training is performed for an LLM now. Specifically,
 
 First, we have some text dataset. We cannot feed it directly to the model because we need to convert the text into numbers. The tokenizer takes care of this. Now we have the tokens $T_i$. Each $T_i$ is a number between 1 and $V$, the total number of distinct tokens in our dataset. Each token flows through the network in parallel, that's why training LLMs is more efficient than training RNNs or LSTMs.
 
-<img src="https://alperengormez.github.io//assets/phd/eellm.jpeg" width="550" height="300">
+<img src="https://alperengormez.github.io//assets/phd/eellm.JPG" width="550" height="300">
 
 The tokens are then converted to embedding vectors. After that, the vectors flow through the other layers of the model: Decoder-1, Decoder-2, and so on. At the end, the language modeling head, which is a linear layer, converts the outputs of the last decoder layer to token predictions via softmax. The objective here is next token prediction: We want $\hat T_i = T_{i+1}$.
 
@@ -183,19 +183,19 @@ The vector AWGN channel can be modeled as $r = s_m + n$. Each term is an $N$-dim
 
 Using Bayes rule and clever mathematical tricks, when we expand the problem formulation step by step, we end up with the expression shown below. Notice how it resembles the operation of a linear layer: A matrix multiplication of weights and the input, plus the bias.
 
-<img src="https://alperengormez.github.io//assets/phd/eellm_awgn.jpeg" width="550" height="300">
+<img src="https://alperengormez.github.io//assets/phd/eellm_awgn.JPG" width="550" height="300">
 
 Now, let me discuss the experiments. We have two settings. In the first one, referred to as the no-freezing setting, all layers of the model are trainable. In the second setting, we freeze all layers except the language modeling heads. This configuration simulates a resource constrained scenario.
 
 We compare our weight initialization technique against two baselines. The first baseline is simply initializing the early exit weights in a random manner, using uniform distribution. The next baseline is copying the weights of the final exit into the early exit. We can do this because the final exit is already pre-trained, and the dimensions match.
 
-<img src="https://alperengormez.github.io//assets/phd/eellm_r1.jpeg" width="550" height="300">
+<img src="https://alperengormez.github.io//assets/phd/eellm_r1.JPG" width="550" height="300">
 
 As shown above, with absolutely zero training, our class-aware weight initialization technique can achieve 24% next-token prediction accuracy in the no-freezing setting. This is a pretty good deal! However, after a few epochs, the green curve stays under the red one, which is not ideal. On the right, we see that the our technique is simply the best.
 
 We solve the problem of staying under the red curve by using a convex combination of our class-aware technique and the copy-from-final baseline. By doing so, we start from a very good place, and we keep high performance throughout the pre-training. We keep the best of both worlds. This also boosts the performance in the freezing setting as well. For more figures on bigger models and different model families, you can refer to the [thesis](https://alperengormez.github.io//assets/phd/agormez_phd_thesis.pdf).
 
-<img src="https://alperengormez.github.io//assets/phd/eellm_r2.jpeg" width="550" height="300">
+<img src="https://alperengormez.github.io//assets/phd/eellm_r2.JPG" width="550" height="300">
 # Future Work
 If someone picks up my thesis, here are some problems they might want to start working on first.
 
@@ -209,7 +209,7 @@ EEPrune could potentially be applied to unsupervised learning tasks such as clus
 
 Finally, there may be even more clever weight initialization techniques for the supervised fine-tuning (SFT) and reinforcement learning from human feedback (RLHF) phases for LLMs. Only the most adventurous researchers might uncover these techniques!
 # Concluding Remarks
-<img src="https://alperengormez.github.io//assets/phd/conclusion.jpeg" width="550" height="300">
+<img src="https://alperengormez.github.io//assets/phd/conclusion.JPG" width="550" height="300">
 
 In the penultimate semester of my Ph.D., I read Umberto Eco's *How to Write a Thesis*. Although it is mainly written for social sciences, philosophy and literature, the insights apply broadly no matter your area of study. I already knew most of the things the book covered, but it was still worthwhile and enjoyable read.
 
