@@ -56,7 +56,7 @@ Maffetone came up with a new formula. 180 minus age and an adjustment would give
 
 One glaring fact about the Maffetone method and the book is that they are not modern anymore. In the preface, Mark Allen talks about how effective the Maffetone method was for him. He could not win the Ironman World Championship in his first six attempts but won 1989-1993 & 1995 after he adopted Maffetone's method. However, he competed in the 1990s, thirty years ago. If we look at the list of men who won the Ironman World Championship, we see that Australians and Germans dominated after Mark Allen. Most recently the Norwegian method has proven to be effective, where they emphasize high intensity training. Clearly today's winners are not relying on the Maffetone method.
 
-Maybe another unsettling thing is that although Maffetone has a B.S. in human biology and certifications in physiotherapy, he is not a medical doctor. He holds a Doctor of Chiropractor degree in chiropractic, and endorses Chinese medicine. Let's get this straight: Chiropractic and Chinese medicine are not scientific at all. Moreover, he has controversial statements on COVID-19. Health is the single most important thing in a person's life, and this background is not something that puts my mind at ease. 
+Maybe another unsettling thing is that Maffetone endorses chiropractic and Chinese medicine. I understand that some people, after exhausting all other options, might turn to these methods for relief. However, neither chiropractic nor Chinese medicine is grounded in scientific evidence, and this makes me uncomfortable with them. Moreover, Maffetone has controversial statements on COVID-19. Health is the single most important thing in a person's life, and this background is not something that puts my mind at ease.
 
 Finally, the book's credibility could have been stronger if there were at least a few citations and there were not any blunt ads. Sharing medicine and pharmacy names in a blatant way weakens his already questionable position. Additionally, the recovery examples shared in the book seem magical. 'Patients' miraculously recover after following Maffetone's advice. The book could have been shorter too as the key takeaways can be condensed into a few hundred words as I illustrated above.
 
@@ -69,4 +69,4 @@ As with everything in life, practice is what leads to perfection. Want to improv
 ###### Acknowledgments
 <small>Thanks to Onuralp Görmez and Berkay Ömer Cünedioğlu for reading the draft and providing valuable suggestions for improving the text.<br>
 Published: Oct 28, 2024.<br>
-Last edited: Oct 28, 2024.</small>
+Last edited: Nov 7, 2024.</small>
