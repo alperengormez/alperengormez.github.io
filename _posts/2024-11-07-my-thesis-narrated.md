@@ -106,7 +106,7 @@ We make the following observation: Not all classes have the same classification 
 
 Here is how CBT works:
 * Suppose we have $N$ exits and $K$ classes.
-* Let $\phi_n$ be the probability vector for a pixel at exit $n$. This has $K$ elements that sum up to 1.
+* Let $\phi_n$ be the probability vector for a pixel at exit $n$. This has $K$ elements that sum up to one.
 * Let $S_k$ be the set of of *all* training pixels with ground truth $k$.
 * For every class $k$, at every exit $n$, we calculate the average $\phi_n$ for the pixels in $S_k$. This is $p_{n,k}$.
 * Then for each class, we calculate the average of $p_{n,k}$ across all exits. This is $P_k$. You can think of this step as information sharing between the exits.
@@ -149,7 +149,7 @@ EEPrune also consumes less power compared to the other methods because it requir
 
 We validate the effectiveness of EEPrune as follows. Suppose we are doing 50% pruning. We have identified which samples are redundant. They are in $D_p$. Normally, we train the model on $D_{tr}  \setminus D_p$, right? And it performs well on the test set. What if we train it on $D_p$? $D_p$ have the redundant, uninformative samples, so the test set performance should be lower. And indeed this is the case.
 
-<img src="https://alperengormez.github.io//assets/phd/eeprune_dp_.JPG" width="550" height="300">
+<img src="https://alperengormez.github.io//assets/phd/eeprune_dp.JPG" width="550" height="300">
 
 We also examine the effect of the exit location. Across all pruning ratios, our findings indicate that placing the exit too early or too deep in the network hurt the performance. So, as everything else in life, there must be a balance.
 
@@ -165,7 +165,7 @@ LLMs today are too big, so inference times are too high. As I explained before, 
 
 For context, let's study how training is performed for an LLM now. Specifically, let's focus on the pre-training of a decoder-only LLM.
 
-First, we have some text dataset. We cannot feed it directly to the model because we need to convert the text into numbers. The tokenizer takes care of this. Now we have the tokens $T_i$. Each $T_i$ is a number between 1 and $V$, the total number of distinct tokens in our dataset. Each token flows through the network in parallel, that's why training LLMs is more efficient than training RNNs or LSTMs.
+First, we have some text dataset. We cannot feed it directly to the model because we need to convert the text into numbers. The tokenizer takes care of this. Now we have the tokens $T_i$. Each $T_i$ is a number between $1$ and $V$, the total number of distinct tokens in our dataset. Each token flows through the network in parallel, that's why training LLMs is more efficient than training RNNs or LSTMs.
 
 <img src="https://alperengormez.github.io//assets/phd/eellm.JPG" width="550" height="300">
 
@@ -179,7 +179,7 @@ At inference time, the early exit layer simply performs matrix multiplication be
 
 Our weight initialization technique has ties to the telecommunications domain, specifically, to the problem of optimal detection for the vector AWGN channel.
 
-The vector AWGN channel can be modeled as $r = s_m + n$. Each term is an $N$-dimensional vector. There is a sender, which can send $M$ different messages to the receiver through the AWGN channel. The channel adds the noise. The noise components are IID Gaussian with 0 mean and $\frac{N_0}{2}$ variance. The goal for the receiver is to minimize the probability of error.
+The vector AWGN channel can be modeled as $r = s_m + n$. Each term is an $N$-dimensional vector. There is a sender, which can send $M$ different messages to the receiver through the AWGN channel. The channel adds the noise. The noise components are IID Gaussian with zero mean and $\frac{N_0}{2}$ variance. The goal for the receiver is to minimize the probability of error.
 
 Using Bayes rule and clever mathematical tricks, when we expand the problem formulation step by step, we end up with the expression shown below. Notice how it resembles the operation of a linear layer: A matrix multiplication of weights and the input, plus the bias.
 
