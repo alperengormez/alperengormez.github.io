@@ -137,27 +137,27 @@ As I stated above, in some sense, early exit networks can detect easy samples. W
 
 When we look at which samples are pruned on a toy, easy-to-visualize dataset, we see that EEPrune discards the samples that are furthest away from the decision boundaries. This indicates that those samples are less important for the training, which makes sense.
 
-<img src="https://alperengormez.github.io//assets/phd/eeperune_vis.JPG" width="550" height="300">
+<img src="https://alperengormez.github.io//assets/phd/eeprune_vis.JPG" width="550" height="300">
 
 Now, let's see the results. As demonstrated, EEPrune beats random pruning as well as other more sophisticated pruning methods. For more detailed figures and insights, you might want to take a look at the [thesis](https://alperengormez.github.io//assets/phd/agormez_phd_thesis.pdf).
 
-<img src="https://alperengormez.github.io//assets/phd/eeperune_result.JPG" width="550" height="300">
+<img src="https://alperengormez.github.io//assets/phd/eeprune_result.JPG" width="550" height="300">
 
 EEPrune also consumes less power compared to the other methods because it requires only a few epochs of training. This does not contradict the main objective of reducing the training costs, unlike other methods.
 
-<img src="https://alperengormez.github.io//assets/phd/eeperune_power.JPG" width="550" height="300">
+<img src="https://alperengormez.github.io//assets/phd/eeprune_power.JPG" width="550" height="300">
 
 We validate the effectiveness of EEPrune as follows. Suppose we are doing 50% pruning. We have identified which samples are redundant. They are in $D_p$. Normally, we train the model on $D_{tr}  \setminus D_p$, right? And it performs well on the test set. What if we train it on $D_p$? $D_p$ have the redundant, uninformative samples, so the test set performance should be lower. And indeed this is the case.
 
-<img src="https://alperengormez.github.io//assets/phd/eeperune_dp_.JPG" width="550" height="300">
+<img src="https://alperengormez.github.io//assets/phd/eeprune_dp_.JPG" width="550" height="300">
 
 We also examine the effect of the exit location. Across all pruning ratios, our findings indicate that placing the exit too early or too deep in the network hurt the performance. So, as everything else in life, there must be a balance.
 
-<img src="https://alperengormez.github.io//assets/phd/eeperune_exitloc.JPG" width="550" height="300">
+<img src="https://alperengormez.github.io//assets/phd/eeprune_exitloc.JPG" width="550" height="300">
 
 Finally, I want to show you a visually appealing figure that displays heatmaps of different dataset pruning methods. These heatmaps illustrate how many samples each method discards from each class. As you can see, each pruning method behaves differently and causes a different level of class imbalance in the remaining set. Random pruning, the second column from the left in each heatmap, appears the most uniform, as expected. On the other hand, some methods cause a significant class imbalance, which explains their poor performance.
 
-<img src="https://alperengormez.github.io//assets/phd/eeperune_heatmap.JPG" width="550" height="300">
+<img src="https://alperengormez.github.io//assets/phd/eeprune_heatmap.JPG" width="550" height="300">
 # Class-aware Initialization of Early Exits for Pre-training Large Language Models
 My final contribution is a weight initialization technique for accelerating the pre-training of early exit large language models (LLMs).
 
