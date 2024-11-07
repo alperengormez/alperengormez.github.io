@@ -217,7 +217,7 @@ According to Eco, writing a thesis provides a unique research experience that wi
 
 I think I was lucky enough to be exposed to different problems during my Ph.D., both at school and in the industry via internships. I had the chance to tackle interesting problems, organize my thoughts and data, and communicate insights in an easy-to-digest way. The cherry on top has been my research topic. Efficient inference & training is more crucial today than ever. I hope Eco is right and the experience I gained throughout the Ph.D. will prove useful whatever work lies ahead
 
-If you found this post or my thesis useful for research, please consider citing them.
+If you found this post or my thesis useful for your research, please consider citing them.
 
 <small>Published: Nov 7, 2024.<br>
 Last edited: Nov 7, 2024.</small>
