@@ -3,7 +3,5 @@ main:
     url: /publications/
   - title: "Blog"
     url: /blog/
-  - title: "CV"
-    url: /CV/
-  - title: "Contact"
-    url: /contact/
+  - title: "Resume"
+    url: /resume/

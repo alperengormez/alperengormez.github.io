@@ -34,7 +34,7 @@ remote_theme: mmistakes/minimal-mistakes
 permalink: /:categories/:title/
 # paginate: 5 # amount of posts to show
 # paginate_path: /page:num/
-timezone: America/Chicago
+timezone: America/Los Angeles
 
 include:
   - _pages
@@ -64,9 +64,8 @@ plugins:
 author:
   name   : "Alperen Görmez"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "I am a Ph.D. student at University of Illinois Chicago, doing research on deep learning. 
-  Specifically, I am working on the trade-off between the computational cost and the performance of deep learning models."
-  location: "Chicago, IL"
+  bio    : "I am a research scientist at Meta, in the Modern Recommendation Systems - GPU Efficiency team. I received my Ph.D. from University of Illinois Chicago, where I worked on efficient neural network inference and training."
+  location: "Menlo Park, CA"
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"

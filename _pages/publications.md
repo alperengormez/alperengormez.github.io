@@ -15,6 +15,8 @@ img {
 }
 </style>
 
+**Ph.D. Dissertation:** [Efficient Neural Network Inference and Training Using Early Exit Strategies](https://alperengormez.github.io//assets/phd/agormez_phd_thesis.pdf)
+
 <div class="box">
   <img style="vertical-align:middle; float: left" src="/assets/publications/eellm.png" alt="" width="250">
   <span style=""><b>5. A. Görmez</b> and E. Koyuncu, "Class-aware Initialization of Early Exits for Pre-training Large Language Models," in <em>2nd Workshop on Advancing Neural Network Training: Computational Efficiency, Scalability, and Resource Optimization (WANT@ICML 2024)</em>, 2024. <a href="https://openreview.net/forum?id=XUgM4M4Aua">[Paper]</a> <a href="/publications">[Code: coming soon]</a></span>
