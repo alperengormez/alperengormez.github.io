@@ -29,6 +29,7 @@ img {
  
 <div class="box">
   <img style="vertical-align:middle; float: left" src="/assets/publications/icmlllw.png" alt="" width="250">
+  <span style=""><b>3. A. Görmez</b> and E. Koyuncu, "Dataset Pruning Using Early Exit Networks," <em>ICML Workshop on Localized Learning (LLW)</em>, 2023. Also to appear in ACM Transactions on Intelligent Systems and Technology. <a href="https://openreview.net/forum?id=Kh114370zL">[Paper ICML]</a> <a href="https://dl.acm.org/doi/10.1145/3785502">[Paper ACM]</a> <a href="/assets/publications/icml_llw_poster.pdf">[Poster]</a> <a href="/publications">[Code: coming soon]</a></span>
 </div>
 
 <div class="box">
