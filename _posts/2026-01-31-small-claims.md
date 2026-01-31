@@ -119,7 +119,7 @@ In my closing statement, I reiterated the key points: the misrepresentation in t
 * "Multiple residents in this and neighboring properties continued to live there."
 * "Any financial claims should be directed to the renter’s insurance company rather than to the landlord."
 
-A few days later, we received the decision mail. We won again. This time, the court awarded us around \$5500 + costs. A few days after this, I attended the hearing for the other tenant as a witness. The landlord didn't even show up. Their case was even more severe than ours, and they recovered around $12,000 plus costs.
+A few days later, we received the decision mail. We won again. This time, the court awarded us around \$5500 + costs. A few days after this, I attended the hearing for the other tenant as a witness. The landlord didn't even show up. Their case was even more severe than ours, and they recovered around \$12,000 plus costs.
 
 # Final Thoughts
 
