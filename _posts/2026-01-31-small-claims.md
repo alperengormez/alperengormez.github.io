@@ -85,7 +85,7 @@ Before entering, the landlord approached me and asked if I wanted to make a deal
 
 I gave a copy of my exhibit packet to the landlord and one to the judge. When it was our turn, I presented my case first, walking through the timeline and evidence. The landlord then presented his side. I took careful notes during his presentation. In my closing statement, I didn't respond point-by-point to his rebuttal but instead reiterated my main claims clearly and concisely.
 
-We won, and the court awarded us \$4,000 in damages plus \$125 in court costs. While this did not cover the full amount of our financial losses, we were still pleased with the outcome.
+We won, and the court awarded us &#36;4,000 in damages plus &#36;125 in court costs. While this did not cover the full amount of our financial losses, we were still pleased with the outcome.
 
 The landlord had 30 days to appeal, and he did appeal. In California small claims court, when a defendant appeals, the next trial is a trial de novo, meaning it is an entirely new trial, as if the first one never happened. The case moves to civil court, where both parties can bring attorneys, and there is no further right to appeal after this second trial.
 
@@ -119,7 +119,7 @@ In my closing statement, I reiterated the key points: the misrepresentation in t
 * "Multiple residents in this and neighboring properties continued to live there."
 * "Any financial claims should be directed to the renter’s insurance company rather than to the landlord."
 
-A few days later, we received the decision mail. We won again. This time, the court awarded us around \$5500 + costs. A few days after this, I attended the hearing for the other tenant as a witness. The landlord didn't even show up. Their case was even more severe than ours, and they recovered around \$12,000 plus costs.
+A few days later, we received the decision mail. We won again. This time, the court awarded us around &#36;5,500 + costs. A few days after this, I attended the hearing for the other tenant as a witness. The landlord didn't even show up. Their case was even more severe than ours, and they recovered around &#36;12,000 plus costs.
 
 # Final Thoughts
 
