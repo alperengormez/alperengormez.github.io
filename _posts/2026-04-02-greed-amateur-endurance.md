@@ -17,7 +17,7 @@ The other fork is triathlon: sprint, Olympic, then a half Ironman, then a full, 
 
 I know where my greed stops. I will probably do a big, non-cult ultra at some point. Triathlon? Never.
 
-The ROI just does not work for me. My sub-2:50 marathon preparation was around 17 hours a week at peak, already at the edge of what is sustainable with work, commute, family, and other hobbies. Boston has me at 20 hours. Push that to 25 and it starts feeling like a job.  I imagine a solid sub-5 half Ironman would demand 30-plus hours, most of it in the pool and on the bike.
+The ROI just does not work for me. My sub-2:50 marathon preparation was around 25 hours a week at peak, already at the edge of what is sustainable with work, commute, family, and other hobbies. Boston has me at 20 hours. Push that to 30 and it starts feeling like a job. I imagine a solid sub-5 half Ironman would demand 30+ hours, most of it in the pool and on the bike.
 
 I am not good at swimming and do not enjoy it. The overhead alone is exhausting: find a pool, drive there, shower, change, do the actual workout, shower again, change, drive home. Every session carries 40 minutes of logistics. I hate that.
 
