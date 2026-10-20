@@ -64,8 +64,8 @@ plugins:
 author:
   name   : "Alperen Görmez"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "I am a research scientist at Meta, in the Modern Recommendation Systems - GPU Efficiency team. I received my Ph.D. from University of Illinois Chicago, where I worked on efficient neural network inference and training."
-  location: "Menlo Park, CA"
+  bio    : "I am a Member of Technical Staff at Jump Trading. Previously, I was a research scientist at Meta, in the Modern Recommendation Systems - GPU Efficiency team. I received my Ph.D. from University of Illinois Chicago, where I worked on efficient neural network inference and training."
+  location: "New York, NY"
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
