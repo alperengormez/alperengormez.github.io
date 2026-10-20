@@ -38,6 +38,7 @@ I am only sending this now because things have just settled enough for us to sit
 Please respond in writing within a week with how Westminster intends to address this. I am sending this both by email and by physical mail for the record.
 
 YouTube: https://youtube.com/shorts/TFm4jz-L4K0?feature=share
+
 Blog: https://alperengormez.github.io/blog/westminster
 
 Sincerely,
